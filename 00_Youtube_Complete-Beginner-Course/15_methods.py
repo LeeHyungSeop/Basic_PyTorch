@@ -5,6 +5,7 @@ import torch.nn as nn
 torch.save(arg, PATH)
 
 ### load model. model class must be defined somewhere ###
+model = Model(*args, **kwargs)
 model = torch.load(PATH)
 model.eval()
 
