@@ -1,3 +1,5 @@
+# TensorBoard server starten: tensorboard --logdir=runs
+
 import torch
 import torch.nn as nn
 import torchvision
