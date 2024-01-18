@@ -7,3 +7,5 @@ github_access_token
 /02_ResNet/ResNet34/*Checkpoint/*
 /02_ResNet/ResNet50/*Checkpoint/
 /02_ResNet/ResNet50/*Checkpoint/*
+/02_ResNet/ResNet32/*checkpoint/*
+/02_ResNet/ResNet32/*checkpoint/*.pth
