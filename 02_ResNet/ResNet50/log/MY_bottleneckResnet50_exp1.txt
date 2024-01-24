@@ -1,6 +1,6 @@
-2024-01-24 22:11:06.054727: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+2024-01-24 13:20:14.400618: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-01-24 22:11:06.103858: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-01-24 13:20:14.449484: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 mini_batch_size : 256
 # threads : 8
 # train examples : 1281167
@@ -231,4 +231,25 @@ total num_iters: 600600
 Adjusting learning rate of group 0 to 1.0000e-01.
 # of total parameters : 25557032
 # of trainable parameters : 25557032
+Current Time : 2024-01-24 13:20:24.871968
 1 / 120 epoch ----------------------------------------
+[1, 1000th iteration] loss : 6.785870582103729
+[1, 2000th iteration] loss : 5.94080900144577
+[1, 3000th iteration] loss : 5.3247641248703
+[1, 4000th iteration] loss : 4.8642235832214356
+[1, 5000th iteration] loss : 4.474096469640732
+val loss : 4.333368868243937
+val acc : 15.738
+Adjusting learning rate of group 0 to 1.0000e-01.
+Current Time : 2024-01-24 14:04:45.925510
+2 / 120 epoch ----------------------------------------
+[2, 1000th iteration] loss : 4.132676839113236
+[2, 2000th iteration] loss : 3.8786497662067414
+[2, 3000th iteration] loss : 3.6499341342449187
+[2, 4000th iteration] loss : 3.470062948465347
+[2, 5000th iteration] loss : 3.3225294885635375
+val loss : 3.5822400876453946
+val acc : 26.766
+Adjusting learning rate of group 0 to 1.0000e-01.
+Current Time : 2024-01-24 14:49:05.408282
+3 / 120 epoch ----------------------------------------

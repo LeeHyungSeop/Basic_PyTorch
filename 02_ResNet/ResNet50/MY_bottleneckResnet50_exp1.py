@@ -26,6 +26,7 @@ import matplotlib.pyplot as plt
 import PIL
 import random
 import json
+import datetime
 
 # Load ImageNet
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
@@ -67,10 +68,10 @@ print(f"mini_batch_size : {mini_batch_size}")
 num_threads = torch.get_num_threads()
 print(f"# threads : {num_threads}")
 train_loader = torch.utils.data.DataLoader(
-    trainset, batch_size=mini_batch_size, shuffle=True, num_workers=num_threads, pin_memory=True
+    trainset, batch_size=mini_batch_size, shuffle=True, num_workers=12, pin_memory=True
 )
 val_loader = torch.utils.data.DataLoader(
-    valset, batch_size=mini_batch_size, shuffle=True, num_workers=num_threads, pin_memory=True
+    valset, batch_size=mini_batch_size, shuffle=True, num_workers=12, pin_memory=True
 )
 
 num_train_examples = len(trainset)
@@ -257,6 +258,7 @@ val_acc_list = []
 # training MyResNet50() model
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 for epoch in range(0, epochs):
+    print(f"Current Time : {datetime.datetime.now()}")
     model.train().to(device) 
     running_loss = 0.0
     print(f"{epoch+1} / {epochs} epoch ----------------------------------------")
@@ -324,7 +326,7 @@ for epoch in range(0, epochs):
             'optimizer_state_dict': optimizer.state_dict(),
         }, f"./MY_bottleneckResnet50_exp1_Checkpoint/epoch_{epoch+1}.pth")
         
-
+print(f"Current Time : {datetime.datetime.now()}")
 print('~~~ Training Finished ~~~')    
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                 
