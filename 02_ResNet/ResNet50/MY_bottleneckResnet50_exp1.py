@@ -45,7 +45,6 @@ trainset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/train', 
     transform = transforms.Compose([   
         shorter_side_resize,
-        # transforms.RandomResizedCrop(224),
         transforms.RandomCrop(224),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
@@ -335,7 +334,6 @@ print('~~~ Training Finished ~~~')
 
 print(f"[In Paper] top-1 acc : 77.15 %, top-5 acc : 93.29 %")
 
-
 mini_batch_size = 64
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 criterion = nn.CrossEntropyLoss()
@@ -343,6 +341,7 @@ num_val_batch = len(val_loader)     # the number of val batches   =   196 (   50
 print(f"num_val_batch : {num_val_batch}")
 
 ## exp1 : transforms.Resize(256),
+print("[inference exp1] : transforms.Resize(256)")
 valset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/val',
     transform=transforms.Compose([
@@ -379,6 +378,7 @@ with torch.no_grad():
         _, predicted = result_avg.max(1)
         total += target.size(0)
         correct += predicted.eq(target).sum().item()
+print("[Top-1]")
 print(f"val loss : {val_loss / num_val_batch}")
 print(f"val acc : {100. * correct / total}%")
 print(f"error rate : {100. * (total - correct) / total}%")
@@ -401,11 +401,13 @@ with torch.no_grad():
         _, predicted = result_avg.topk(5, 1, True, True)
         total += target.size(0)
         correct += predicted.eq(target.view(-1, 1).expand_as(predicted)).sum().item()     
+print("[Top-5]")        
 print(f"val loss : {val_loss / num_val_batch}")
 print(f"val acc : {100. * correct / total}%")
 print(f"error rate : {100. * (total - correct) / total}%")
 
 ## exp 2 : transforms.Resize((256 + 480) // 2),
+print("[inference exp2] : transforms.Resize((256 + 480) // 2)")
 valset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/val',
     transform=transforms.Compose([
@@ -439,7 +441,7 @@ with torch.no_grad():
         _, predicted = result_avg.max(1)
         total += target.size(0)
         correct += predicted.eq(target).sum().item()
-
+print("[Top-1]")
 print(f"val loss : {val_loss / num_val_batch}")
 print(f"val acc : {100. * correct / total}%")
 print(f"error rate : {100. * (total - correct) / total}%")
@@ -462,7 +464,7 @@ with torch.no_grad():
         _, predicted = result_avg.topk(5, 1, True, True)
         total += target.size(0)
         correct += predicted.eq(target.view(-1, 1).expand_as(predicted)).sum().item()     
-
+print("[Top-5]")
 print(f"val loss : {val_loss / num_val_batch}")
 print(f"val acc : {100. * correct / total}%")
 print(f"error rate : {100. * (total - correct) / total}%")
