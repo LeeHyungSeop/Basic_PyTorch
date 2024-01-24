@@ -1,11 +1,13 @@
-2024-01-23 23:22:06.046351: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+2024-01-24 21:33:20.997297: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-01-23 23:22:06.134080: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-01-24 21:33:21.047902: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 cuda:0
-num_val_batch : 782
-val loss : 1.0030246253894723
-val acc : 74.44
-error rate : 25.56
-val loss : 1.0032770150076702
-val acc : 92.218
-error rate : 7.782
+num_val_batch : 391
+[Top-1]
+val loss : 0.9848282113099647
+val acc : 75.114
+error rate : 24.886
+[Top-5]
+val loss : 0.9846706035192055
+val acc : 92.362
+error rate : 7.638

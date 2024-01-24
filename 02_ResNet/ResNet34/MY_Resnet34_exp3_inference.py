@@ -156,7 +156,7 @@ valset = torchvision.datasets.ImageFolder(
     ])
 )                    
 
-mini_batch_size = 64
+mini_batch_size = 128
 
 # make valloader
 val_loader = torch.utils.data.DataLoader(
@@ -186,6 +186,7 @@ with torch.no_grad():
         _, predicted = result_avg.max(1)
         total += target.size(0)
         correct += predicted.eq(target).sum().item()
+print("[Top-1]")
 print(f"val loss : {val_loss / num_val_batch}")
 print(f"val acc : {100. * correct / total}")
 print(f"error rate : {100. * (total - correct) / total}")
@@ -207,7 +208,8 @@ with torch.no_grad():
         val_loss += loss.item()
         _, predicted = result_avg.topk(5, 1, True, True)
         total += target.size(0)
-        correct += predicted.eq(target.view(-1, 1).expand_as(predicted)).sum().item()     
+        correct += predicted.eq(target.view(-1, 1).expand_as(predicted)).sum().item()   
+print("[Top-5]")          
 print(f"val loss : {val_loss / num_val_batch}")
 print(f"val acc : {100. * correct / total}")
 print(f"error rate : {100. * (total - correct) / total}")
