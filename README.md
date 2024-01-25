@@ -17,5 +17,5 @@
 
 ## References
 - ResNet Paper: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- Pruning Filters Paper : [Pruning Filters for Efficient ConvNets](https://arxiv.org/abs/1608.08710)
 - Torchvision ResNet Implementation: [torchvision.models.resnet](https://github.com/pytorch/vision/blob/6640e494c5b24be52c0008d46147637117221091/torchvision/models/resnet.py#L75)
-
