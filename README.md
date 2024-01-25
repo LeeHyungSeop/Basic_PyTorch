@@ -8,6 +8,12 @@
    * cuda version : 12.1
    
 * `02_ResNet/` : Comparing PyTorch Implementation with Custom Implementation of (Inverted) ResNet
+   * paper review : https://velog.io/@hseop/ResNet-Deep-Residual-Learning-for-Image-Recognition
+   * my blog : https://velog.io/@hseop/ResNet34-on-ImageNet-iebj98te
+
+* `03_Pruning_Filters_for_Efficient_Convnets` : Try performing filter pruning in the paper + additional experiments
+   * paper review : https://velog.io/@hseop/PRUNING-FILTERS-FOR-EFFICIENT-CONVNETS
+   * my blog : https://velog.io/@hseop/Pruning-Filters-for-Efficient-Convnets
 
 ## References
 - ResNet Paper: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
