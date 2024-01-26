@@ -563,3 +563,261 @@ val acc : 69.698
 Adjusting learning rate of group 0 to 1.0000e-02.
 Current Time : 2024-01-25 13:37:15.685575
 34 / 120 epoch ----------------------------------------
+[34, 1000th iteration] loss : 1.1843954395055771
+[34, 2000th iteration] loss : 1.1820125810503959
+[34, 3000th iteration] loss : 1.1868481165766716
+[34, 4000th iteration] loss : 1.1913215392827987
+[34, 5000th iteration] loss : 1.193592996954918
+val loss : 1.1974820154053825
+val acc : 70.09
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 14:21:22.172922
+35 / 120 epoch ----------------------------------------
+[35, 1000th iteration] loss : 1.1566738811135293
+[35, 2000th iteration] loss : 1.1584262372255325
+[35, 3000th iteration] loss : 1.1637003089785576
+[35, 4000th iteration] loss : 1.1722420067191124
+[35, 5000th iteration] loss : 1.177749734401703
+val loss : 1.2019971502678735
+val acc : 69.688
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 15:05:30.261235
+36 / 120 epoch ----------------------------------------
+[36, 1000th iteration] loss : 1.1330436407923699
+[36, 2000th iteration] loss : 1.1490037863850593
+[36, 3000th iteration] loss : 1.1546912276744843
+[36, 4000th iteration] loss : 1.1577764735221863
+[36, 5000th iteration] loss : 1.1601193919181825
+val loss : 1.1941444569704485
+val acc : 70.056
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 15:49:38.520915
+37 / 120 epoch ----------------------------------------
+[37, 1000th iteration] loss : 1.1180351253151894
+[37, 2000th iteration] loss : 1.142058368265629
+[37, 3000th iteration] loss : 1.1379079502224922
+[37, 4000th iteration] loss : 1.1493924989104272
+[37, 5000th iteration] loss : 1.1601383957266806
+val loss : 1.1962299803081824
+val acc : 69.954
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 16:33:47.490758
+38 / 120 epoch ----------------------------------------
+[38, 1000th iteration] loss : 1.1162804247140885
+[38, 2000th iteration] loss : 1.127345273733139
+[38, 3000th iteration] loss : 1.1308043447732925
+[38, 4000th iteration] loss : 1.1443535329699517
+[38, 5000th iteration] loss : 1.1543090807199479
+val loss : 1.1989037066089863
+val acc : 69.822
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 17:17:56.916144
+39 / 120 epoch ----------------------------------------
+[39, 1000th iteration] loss : 1.1054889366030693
+[39, 2000th iteration] loss : 1.122404080748558
+[39, 3000th iteration] loss : 1.1338159856796264
+[39, 4000th iteration] loss : 1.136991490483284
+[39, 5000th iteration] loss : 1.1457688353061677
+val loss : 1.2265822391728967
+val acc : 69.414
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 18:02:06.004049
+40 / 120 epoch ----------------------------------------
+[40, 1000th iteration] loss : 1.0969257445931435
+[40, 2000th iteration] loss : 1.115712569773197
+[40, 3000th iteration] loss : 1.1332841499447823
+[40, 4000th iteration] loss : 1.133212995827198
+[40, 5000th iteration] loss : 1.1483855407238006
+val loss : 1.2015310951641627
+val acc : 69.812
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 18:46:13.946341
+41 / 120 epoch ----------------------------------------
+[41, 1000th iteration] loss : 1.0996195086836815
+[41, 2000th iteration] loss : 1.1125640268325805
+[41, 3000th iteration] loss : 1.1297681556940078
+[41, 4000th iteration] loss : 1.138342398762703
+[41, 5000th iteration] loss : 1.1418082587718963
+val loss : 1.205980617172864
+val acc : 69.846
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 19:30:21.603467
+42 / 120 epoch ----------------------------------------
+[42, 1000th iteration] loss : 1.0974682187438012
+[42, 2000th iteration] loss : 1.1109883125424385
+[42, 3000th iteration] loss : 1.1291385278105737
+[42, 4000th iteration] loss : 1.1308811967968941
+[42, 5000th iteration] loss : 1.1430457234978675
+val loss : 1.218518567024445
+val acc : 69.864
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 20:14:30.846906
+43 / 120 epoch ----------------------------------------
+[43, 1000th iteration] loss : 1.094887696325779
+[43, 2000th iteration] loss : 1.109769858956337
+[43, 3000th iteration] loss : 1.124356118619442
+[43, 4000th iteration] loss : 1.1424409979581833
+[43, 5000th iteration] loss : 1.1391646774411202
+val loss : 1.2011461759708366
+val acc : 70.064
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 20:58:39.642691
+44 / 120 epoch ----------------------------------------
+[44, 1000th iteration] loss : 1.0949056116342544
+[44, 2000th iteration] loss : 1.1100764566659926
+[44, 3000th iteration] loss : 1.124399801492691
+[44, 4000th iteration] loss : 1.1342691667675973
+[44, 5000th iteration] loss : 1.1406507124900818
+val loss : 1.2050246572007939
+val acc : 70.024
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 21:42:50.049530
+45 / 120 epoch ----------------------------------------
+[45, 1000th iteration] loss : 1.092202982723713
+[45, 2000th iteration] loss : 1.1100644501447678
+[45, 3000th iteration] loss : 1.1185544249415398
+[45, 4000th iteration] loss : 1.1305452591180802
+[45, 5000th iteration] loss : 1.143050459563732
+val loss : 1.2129702440329961
+val acc : 69.894
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 22:27:01.952437
+46 / 120 epoch ----------------------------------------
+[46, 1000th iteration] loss : 1.089828814983368
+[46, 2000th iteration] loss : 1.1111657165884972
+[46, 3000th iteration] loss : 1.1221890622973443
+[46, 4000th iteration] loss : 1.1300628670454025
+[46, 5000th iteration] loss : 1.139679682135582
+val loss : 1.2283149556237825
+val acc : 69.392
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 23:11:13.066453
+47 / 120 epoch ----------------------------------------
+[47, 1000th iteration] loss : 1.086971668958664
+[47, 2000th iteration] loss : 1.110207477927208
+[47, 3000th iteration] loss : 1.1149232567548752
+[47, 4000th iteration] loss : 1.1269994152784348
+[47, 5000th iteration] loss : 1.1381531131267548
+val loss : 1.2144197934136098
+val acc : 69.714
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-25 23:55:22.768794
+48 / 120 epoch ----------------------------------------
+[48, 1000th iteration] loss : 1.0836239532232284
+[48, 2000th iteration] loss : 1.112068663418293
+[48, 3000th iteration] loss : 1.1130379576683045
+[48, 4000th iteration] loss : 1.1216519886255265
+[48, 5000th iteration] loss : 1.134166465342045
+val loss : 1.2361101112803634
+val acc : 69.172
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 00:39:33.838917
+49 / 120 epoch ----------------------------------------
+[49, 1000th iteration] loss : 1.0839818269610404
+[49, 2000th iteration] loss : 1.0970458069443703
+[49, 3000th iteration] loss : 1.122244345664978
+[49, 4000th iteration] loss : 1.1228870390057564
+[49, 5000th iteration] loss : 1.137882871389389
+val loss : 1.2324476409323362
+val acc : 69.534
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 01:23:43.802265
+50 / 120 epoch ----------------------------------------
+[50, 1000th iteration] loss : 1.08048391610384
+[50, 2000th iteration] loss : 1.095070823609829
+[50, 3000th iteration] loss : 1.1190633083581925
+[50, 4000th iteration] loss : 1.1247908622026443
+[50, 5000th iteration] loss : 1.1273787317872048
+val loss : 1.2299213096195338
+val acc : 69.384
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 02:07:53.650372
+51 / 120 epoch ----------------------------------------
+[51, 1000th iteration] loss : 1.0785514594316483
+[51, 2000th iteration] loss : 1.0953461617231368
+[51, 3000th iteration] loss : 1.1131010495424272
+[51, 4000th iteration] loss : 1.119486910879612
+[51, 5000th iteration] loss : 1.1223378086686133
+val loss : 1.2231112067796746
+val acc : 69.63
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 02:52:02.171387
+52 / 120 epoch ----------------------------------------
+[52, 1000th iteration] loss : 1.069539798617363
+[52, 2000th iteration] loss : 1.0961623921394348
+[52, 3000th iteration] loss : 1.1057519887685776
+[52, 4000th iteration] loss : 1.1182371203303336
+[52, 5000th iteration] loss : 1.1266724197268485
+val loss : 1.2394953135933195
+val acc : 69.226
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 03:36:09.147389
+53 / 120 epoch ----------------------------------------
+[53, 1000th iteration] loss : 1.0669559742212296
+[53, 2000th iteration] loss : 1.0893022698760033
+[53, 3000th iteration] loss : 1.1097062531113624
+[53, 4000th iteration] loss : 1.1117909427285195
+[53, 5000th iteration] loss : 1.1220014620423318
+val loss : 1.2486771342097496
+val acc : 69.022
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 04:20:16.943849
+54 / 120 epoch ----------------------------------------
+[54, 1000th iteration] loss : 1.0702093955278396
+[54, 2000th iteration] loss : 1.0870597027540208
+[54, 3000th iteration] loss : 1.098985093653202
+[54, 4000th iteration] loss : 1.1116659502983093
+[54, 5000th iteration] loss : 1.1196220986247063
+val loss : 1.2380797431177022
+val acc : 69.264
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 05:04:23.946616
+55 / 120 epoch ----------------------------------------
+[55, 1000th iteration] loss : 1.0619502106308938
+[55, 2000th iteration] loss : 1.0878936744332313
+[55, 3000th iteration] loss : 1.1001983523964882
+[55, 4000th iteration] loss : 1.1063864827156067
+[55, 5000th iteration] loss : 1.1153804733753205
+val loss : 1.2473890799648908
+val acc : 68.984
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 05:48:31.685321
+56 / 120 epoch ----------------------------------------
+[56, 1000th iteration] loss : 1.0558605619668961
+[56, 2000th iteration] loss : 1.08169054377079
+[56, 3000th iteration] loss : 1.0953401844501496
+[56, 4000th iteration] loss : 1.1107249921560287
+[56, 5000th iteration] loss : 1.1091176272630692
+val loss : 1.2589541263118083
+val acc : 68.808
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 06:32:38.943799
+57 / 120 epoch ----------------------------------------
+[57, 1000th iteration] loss : 1.0546605330705643
+[57, 2000th iteration] loss : 1.0695961260795592
+[57, 3000th iteration] loss : 1.0931355165243148
+[57, 4000th iteration] loss : 1.0993933277130128
+[57, 5000th iteration] loss : 1.111665304481983
+val loss : 1.2081008894102914
+val acc : 69.936
+Adjusting learning rate of group 0 to 1.0000e-02.
+Current Time : 2024-01-26 07:16:44.334228
+58 / 120 epoch ----------------------------------------
+[58, 1000th iteration] loss : 1.0522815048098564
+[58, 2000th iteration] loss : 1.078628315448761
+[58, 3000th iteration] loss : 1.0912750951051713
+[58, 4000th iteration] loss : 1.1000476413369178
+[58, 5000th iteration] loss : 1.100107851088047
+
+RESUME TRAINING EPOCH 55 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+2024-01-26 15:47:42.310500: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-26 15:47:42.358075: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+device : cuda:0
+num_iters at 1 epoch: 5005
+total num_iters: 600600
+Adjusting learning rate of group 0 to 1.0000e-02.
+epoch : 54
+Current Time : 2024-01-26 15:47:46.869701
+55 / 120 epoch ----------------------------------------
