@@ -9,3 +9,4 @@ github_access_token
 /02_ResNet/ResNet50/*Checkpoint/*
 /02_ResNet/ResNet32/*checkpoint/*
 /02_ResNet/ResNet32/*checkpoint/*.pth
+/03_Pruning_Filters_for_Efficient_Convnets/cifar.torch

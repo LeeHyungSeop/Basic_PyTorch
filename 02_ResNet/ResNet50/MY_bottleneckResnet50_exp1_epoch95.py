@@ -199,7 +199,7 @@ print(f"device : {device}")
 model = model.to(device)
 
 # hyper parameters
-lr = 0.01
+lr = 0.0001
 momentum = 0.9
 L2 = 0.0001
 # the number of iterations at 1 epoch
@@ -212,8 +212,8 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=momentum, weight_decay=L2)        
 lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=[30, 60, 90], gamma=0.1, verbose=True) # https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.MultiStepLR.html
 
-# load ./MY_bottleneckResnet50_exp1_Checkpoint/epoch_55.pth for resume training
-checkpoint = torch.load("./MY_bottleneckResnet50_exp1_Checkpoint/epoch_55.pth")
+# load ./MY_bottleneckResnet50_exp1_Checkpoint/epoch_95.pth for resume training
+checkpoint = torch.load("./MY_bottleneckResnet50_exp1_Checkpoint/epoch_95.pth")
 model.load_state_dict(checkpoint['model_state_dict'])
 optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
 epoch = checkpoint['epoch']
@@ -227,11 +227,7 @@ val_acc_list = []
 
 # training MyResNet50() model
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-for epoch in range(54, epochs):
-    if epoch == 60 :
-        optimizer.param_groups[0]['lr'] = 0.001
-    if epoch == 90 :
-        optimizer.param_groups[0]['lr'] = 0.0001
+for epoch in range(95, epochs):
     print(f"Current Time : {datetime.datetime.now()}")
     model.train().to(device) 
     running_loss = 0.0
