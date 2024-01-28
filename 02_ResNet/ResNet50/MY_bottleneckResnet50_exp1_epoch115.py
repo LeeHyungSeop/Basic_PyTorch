@@ -212,8 +212,8 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=momentum, weight_decay=L2)        
 lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=[30, 60, 90], gamma=0.1, verbose=True) # https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.MultiStepLR.html
 
-# load ./MY_bottleneckResnet50_exp1_Checkpoint/epoch_95.pth for resume training
-checkpoint = torch.load("./MY_bottleneckResnet50_exp1_Checkpoint/epoch_95.pth")
+# load ./MY_bottleneckResnet50_exp1_Checkpoint/epoch_115.pth for resume training
+checkpoint = torch.load("./MY_bottleneckResnet50_exp1_Checkpoint/epoch_115.pth")
 model.load_state_dict(checkpoint['model_state_dict'])
 optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
 epoch = checkpoint['epoch']
@@ -227,7 +227,7 @@ val_acc_list = []
 
 # training MyResNet50() model
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-for epoch in range(95, epochs):
+for epoch in range(115, epochs):
     print(f"Current Time : {datetime.datetime.now()}")
     model.train().to(device) 
     running_loss = 0.0
