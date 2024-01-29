@@ -3,12 +3,5 @@ github_access_token
 /00_YT_Complete-Beginner-Course/datasets/*
 /01_PyTorch_Official/00_Learn_the_Basics/model*
 /01_PyTorch_Official/hymenoptera_data
-/02_ResNet/ResNet34/*Checkpoint/
-/02_ResNet/ResNet34/*Checkpoint/*
-/02_ResNet/ResNet50/*Checkpoint/
-/02_ResNet/ResNet50/*Checkpoint/*
-/02_ResNet/ResNet32/*checkpoint/*
-/02_ResNet/ResNet32/*checkpoint/*.pth
 /03_Pruning_Filters_for_Efficient_Convnets/cifar.torch
-/03_Pruning_Filters_for_Efficient_Convnets/*checkpoint
-/03_Pruning_Filters_for_Efficient_Convnets/*checkpoint/*
+*.pth
