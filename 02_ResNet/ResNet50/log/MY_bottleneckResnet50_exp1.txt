@@ -1231,3 +1231,83 @@ Adjusting learning rate of group 0 to 1.0000e-04.
 Current Time : 2024-01-27 23:20:55.227000
 
 RESUME TRAINING EPOCH 95 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2024-01-28 22:08:41.092335: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-28 22:08:41.226525: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+device : cuda:0
+num_iters at 1 epoch: 5005
+total num_iters: 600600
+Adjusting learning rate of group 0 to 1.0000e-04.
+epoch : 114
+Current Time : 2024-01-28 22:08:46.711022
+116 / 120 epoch ----------------------------------------
+[116, 1000th iteration] loss : 0.5202297658920289
+[116, 2000th iteration] loss : 0.5216236179471015
+[116, 3000th iteration] loss : 0.5206618504524231
+[116, 4000th iteration] loss : 0.5236370983421803
+[116, 5000th iteration] loss : 0.5245137945413589
+val loss : 1.0300259945952162
+val acc : 74.81
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-01-28 22:51:59.171628
+117 / 120 epoch ----------------------------------------
+[117, 1000th iteration] loss : 0.5190660753548145
+[117, 2000th iteration] loss : 0.5220008684694767
+[117, 3000th iteration] loss : 0.5198240622580051
+[117, 4000th iteration] loss : 0.5221322965919971
+[117, 5000th iteration] loss : 0.5232904989719391
+val loss : 1.026307826139489
+val acc : 74.806
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-01-28 23:35:07.973233
+118 / 120 epoch ----------------------------------------
+[118, 1000th iteration] loss : 0.516981139689684
+[118, 2000th iteration] loss : 0.520659398585558
+[118, 3000th iteration] loss : 0.5260858730375767
+[118, 4000th iteration] loss : 0.5254669880867004
+[118, 5000th iteration] loss : 0.5199676546454429
+val loss : 1.0273419320583344
+val acc : 74.812
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-01-29 00:18:15.997284
+119 / 120 epoch ----------------------------------------
+[119, 1000th iteration] loss : 0.5209137416183949
+[119, 2000th iteration] loss : 0.5208983144760132
+[119, 3000th iteration] loss : 0.5207282919287681
+[119, 4000th iteration] loss : 0.5195895202159881
+[119, 5000th iteration] loss : 0.524348390430212
+val loss : 1.0264259926518615
+val acc : 74.894
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-01-29 01:01:23.847413
+120 / 120 epoch ----------------------------------------
+[120, 1000th iteration] loss : 0.5175884657204152
+[120, 2000th iteration] loss : 0.5171010346114635
+[120, 3000th iteration] loss : 0.5167038733065128
+[120, 4000th iteration] loss : 0.5169549345076084
+[120, 5000th iteration] loss : 0.5232581359446049
+val loss : 1.0272573752670873
+val acc : 74.782
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-01-29 01:44:32.282858
+~~~ Training Finished ~~~
+[In Paper] top-1 acc : 77.15 %, top-5 acc : 93.29 %
+num_val_batch : 196
+[inference exp1] : transforms.Resize(256)
+[Top-1]
+val loss : 3.6900517225873712
+val acc : 76.45%
+error rate : 23.55%
+[Top-5]
+val loss : 3.6842682001237965
+val acc : 93.248%
+error rate : 6.752%
+[inference exp2] : transforms.Resize((256 + 480) // 2)
+[Top-1]
+val loss : 4.05346449601407
+val acc : 75.52%
+error rate : 24.48%
+[Top-5]
+val loss : 4.052355338724292
+val acc : 92.762%
+error rate : 7.238%
