@@ -41,7 +41,7 @@ print(f"# of trainable parameters : {total_trainable_params}")
 
 # hyper parameteres & optimizer
 batch_size = 128
-lr = 1
+lr = 0.1
 lr_decay = 1e-7
 weight_decay = 0.0005
 momentum = 0.9

@@ -2,4 +2,4 @@ Files already downloaded and verified
 Files already downloaded and verified
 classes : ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 mini batch shape : torch.Size([128, 3, 32, 32])
-Top-1 Accuracy : 10.00000%
+Top-1 Accuracy : 91.84000%
