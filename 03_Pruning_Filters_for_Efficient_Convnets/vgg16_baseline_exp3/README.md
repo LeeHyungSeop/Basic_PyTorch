@@ -1,4 +1,4 @@
-# exp2
+# exp3
 
-* learning rate : 1
+* learning rate : 0.1
 * preprocessing : horizontal flip, rgb2yuv, normalization

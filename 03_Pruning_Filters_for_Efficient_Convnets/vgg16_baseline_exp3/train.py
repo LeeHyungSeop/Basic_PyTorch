@@ -41,7 +41,7 @@ print(f"# of trainable parameters : {total_trainable_params}")
 
 # hyper parameteres & optimizer
 batch_size = 128
-lr = 1
+lr = 0.1
 lr_decay = 1e-7
 weight_decay = 0.0005
 momentum = 0.9
@@ -54,7 +54,7 @@ lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=np.arange(epoch_st
 print(np.arange(epoch_step, epochs, epoch_step))
 
 # Training
-writer = SummaryWriter('../runs/vgg16_baseline_exp2')
+writer = SummaryWriter('../runs/vgg16_baseline_exp3')
 input_tensor = torch.Tensor(128, 3, 32, 32).to(device)
 writer.add_graph(model, input_tensor)
 

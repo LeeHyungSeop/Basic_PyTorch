@@ -1,147 +1,970 @@
 Files already downloaded and verified
 Files already downloaded and verified
 classes : ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
-2024-01-29 17:16:25.163877: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+2024-01-29 17:27:50.255830: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-01-29 17:16:25.214217: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-01-29 17:27:50.310217: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 mini batch shape : torch.Size([128, 3, 32, 32])
 Using cuda device
 # of total parameters : 14991946
 # of trainable parameters : 14991946
-Adjusting learning rate of group 0 to 1.0000e-01.
+Adjusting learning rate of group 0 to 1.0000e+00.
 [ 25  50  75 100 125 150 175 200 225 250 275]
 # of validation batches : 79
 
 Start Training  ----------------------------------------------------------------------
-Epoch : 001 | Training loss : 2.16018 | Training acc : 23.09000%
-Epoch : 001 | Validation loss : 2.11294 | Validation acc : 21.12000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 001 with validation acc 21.12000
+Epoch : 001 | Training loss : 2.51228 | Training acc : 10.05800%
+Epoch : 001 | Validation loss : 2.30542 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 001 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 002 | Training loss : 1.60017 | Training acc : 37.95200%
-Epoch : 002 | Validation loss : 1.89667 | Validation acc : 32.50000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 002 with validation acc 32.50000
+Epoch : 002 | Training loss : 2.31931 | Training acc : 10.01000%
+Epoch : 002 | Validation loss : 2.31447 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 002 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 003 | Training loss : 1.25336 | Training acc : 53.42800%
-Epoch : 003 | Validation loss : 1.19621 | Validation acc : 57.74000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 003 with validation acc 57.74000
+Epoch : 003 | Training loss : 2.32122 | Training acc : 9.96200%
+Epoch : 003 | Validation loss : 2.31028 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 003 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 004 | Training loss : 0.96248 | Training acc : 65.63000%
-Epoch : 004 | Validation loss : 1.11477 | Validation acc : 61.33000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 004 with validation acc 61.33000
+Epoch : 004 | Training loss : 2.32234 | Training acc : 9.96400%
+Epoch : 004 | Validation loss : 2.31992 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 004 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 005 | Training loss : 0.80290 | Training acc : 71.74400%
-Epoch : 005 | Validation loss : 0.93421 | Validation acc : 68.32000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 005 with validation acc 68.32000
+Epoch : 005 | Training loss : 2.32090 | Training acc : 9.80400%
+Epoch : 005 | Validation loss : 2.31395 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 005 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 006 | Training loss : 0.70093 | Training acc : 76.14000%
-Epoch : 006 | Validation loss : 0.75778 | Validation acc : 74.63000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 006 with validation acc 74.63000
+Epoch : 006 | Training loss : 2.32101 | Training acc : 9.81000%
+Epoch : 006 | Validation loss : 2.30966 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 006 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 007 | Training loss : 0.64292 | Training acc : 78.25200%
-Epoch : 007 | Validation loss : 0.75966 | Validation acc : 74.84000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 007 with validation acc 74.84000
+Epoch : 007 | Training loss : 2.32178 | Training acc : 10.12800%
+Epoch : 007 | Validation loss : 2.33490 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 007 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 008 | Training loss : 0.60043 | Training acc : 80.02800%
-Epoch : 008 | Validation loss : 0.94505 | Validation acc : 69.93000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 008 | Training loss : 2.31854 | Training acc : 9.88200%
+Epoch : 008 | Validation loss : 2.31743 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 008 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 009 | Training loss : 0.56877 | Training acc : 81.12800%
-Epoch : 009 | Validation loss : 0.68825 | Validation acc : 77.69000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 009 with validation acc 77.69000
+Epoch : 009 | Training loss : 2.31797 | Training acc : 9.96200%
+Epoch : 009 | Validation loss : 2.32213 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 009 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 010 | Training loss : 0.54679 | Training acc : 81.74200%
-Epoch : 010 | Validation loss : 0.76553 | Validation acc : 75.59000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 010 | Training loss : 2.32103 | Training acc : 10.06600%
+Epoch : 010 | Validation loss : 2.31499 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 010 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 011 | Training loss : 0.50362 | Training acc : 83.13200%
-Epoch : 011 | Validation loss : 1.02022 | Validation acc : 70.49000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 011 | Training loss : 2.32031 | Training acc : 10.15400%
+Epoch : 011 | Validation loss : 2.32398 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 011 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 012 | Training loss : 0.49169 | Training acc : 83.78400%
-Epoch : 012 | Validation loss : 0.76430 | Validation acc : 75.49000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 012 | Training loss : 2.32221 | Training acc : 9.98800%
+Epoch : 012 | Validation loss : 2.31416 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 012 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 013 | Training loss : 0.48366 | Training acc : 84.20200%
-Epoch : 013 | Validation loss : 0.64300 | Validation acc : 78.79000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 013 with validation acc 78.79000
+Epoch : 013 | Training loss : 2.31993 | Training acc : 10.01400%
+Epoch : 013 | Validation loss : 2.32141 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 013 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 014 | Training loss : 0.47521 | Training acc : 84.24800%
-Epoch : 014 | Validation loss : 0.67283 | Validation acc : 77.78000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 014 | Training loss : 2.32112 | Training acc : 9.90600%
+Epoch : 014 | Validation loss : 2.31460 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 014 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 015 | Training loss : 0.44958 | Training acc : 85.30600%
-Epoch : 015 | Validation loss : 0.63313 | Validation acc : 79.73000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 015 with validation acc 79.73000
+Epoch : 015 | Training loss : 2.32205 | Training acc : 10.02200%
+Epoch : 015 | Validation loss : 2.32275 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 015 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 016 | Training loss : 0.44090 | Training acc : 85.57000%
-Epoch : 016 | Validation loss : 0.76762 | Validation acc : 75.05000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 016 | Training loss : 2.32246 | Training acc : 9.98600%
+Epoch : 016 | Validation loss : 2.32105 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 016 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 017 | Training loss : 0.43696 | Training acc : 85.84200%
-Epoch : 017 | Validation loss : 0.69500 | Validation acc : 77.57000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 017 | Training loss : 2.32032 | Training acc : 10.10000%
+Epoch : 017 | Validation loss : 2.31792 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 017 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 018 | Training loss : 0.43651 | Training acc : 85.87800%
-Epoch : 018 | Validation loss : 1.28734 | Validation acc : 65.02000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 018 | Training loss : 2.32053 | Training acc : 10.05800%
+Epoch : 018 | Validation loss : 2.32946 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 018 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 019 | Training loss : 0.41743 | Training acc : 86.62800%
-Epoch : 019 | Validation loss : 0.69156 | Validation acc : 78.43000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 019 | Training loss : 2.32055 | Training acc : 9.92200%
+Epoch : 019 | Validation loss : 2.32820 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 019 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 020 | Training loss : 0.41660 | Training acc : 86.38000%
-Epoch : 020 | Validation loss : 0.71281 | Validation acc : 77.15000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 020 | Training loss : 2.32135 | Training acc : 10.30400%
+Epoch : 020 | Validation loss : 2.33181 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 020 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 021 | Training loss : 0.41137 | Training acc : 86.65800%
-Epoch : 021 | Validation loss : 0.86780 | Validation acc : 74.96000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 021 | Training loss : 2.32251 | Training acc : 9.79600%
+Epoch : 021 | Validation loss : 2.32518 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 021 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 022 | Training loss : 0.40390 | Training acc : 86.79000%
-Epoch : 022 | Validation loss : 0.86957 | Validation acc : 73.20000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 022 | Training loss : 2.32064 | Training acc : 9.83000%
+Epoch : 022 | Validation loss : 2.33197 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 022 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 023 | Training loss : 0.39927 | Training acc : 87.01000%
-Epoch : 023 | Validation loss : 0.70041 | Validation acc : 77.97000%
-Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch : 023 | Training loss : 2.31914 | Training acc : 10.01200%
+Epoch : 023 | Validation loss : 2.31391 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 023 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 024 | Training loss : 0.39224 | Training acc : 87.31200%
-Epoch : 024 | Validation loss : 0.56451 | Validation acc : 82.26000%
-Adjusting learning rate of group 0 to 1.0000e-01.
-Best model is updated at epoch 024 with validation acc 82.26000
+Epoch : 024 | Training loss : 2.32175 | Training acc : 9.78000%
+Epoch : 024 | Validation loss : 2.31554 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.0000e+00.
+Best model is updated at epoch 024 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 025 | Training loss : 0.39011 | Training acc : 87.41200%
-Epoch : 025 | Validation loss : 0.89764 | Validation acc : 73.36000%
-Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch : 025 | Training loss : 2.32096 | Training acc : 10.02800%
+Epoch : 025 | Validation loss : 2.31568 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 025 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 026 | Training loss : 0.24680 | Training acc : 92.15800%
-Epoch : 026 | Validation loss : 0.42127 | Validation acc : 86.85000%
-Adjusting learning rate of group 0 to 5.0000e-02.
-Best model is updated at epoch 026 with validation acc 86.85000
+Epoch : 026 | Training loss : 2.31114 | Training acc : 9.95200%
+Epoch : 026 | Validation loss : 2.30804 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 026 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 027 | Training loss : 0.21571 | Training acc : 93.03000%
-Epoch : 027 | Validation loss : 0.42543 | Validation acc : 86.52000%
-Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch : 027 | Training loss : 2.31209 | Training acc : 10.02800%
+Epoch : 027 | Validation loss : 2.30889 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 027 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 028 | Training loss : 0.22764 | Training acc : 92.52200%
-Epoch : 028 | Validation loss : 0.49822 | Validation acc : 84.35000%
-Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch : 028 | Training loss : 2.31174 | Training acc : 9.91600%
+Epoch : 028 | Validation loss : 2.30608 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 028 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 029 | Training loss : 0.23469 | Training acc : 92.44600%
-Epoch : 029 | Validation loss : 0.48675 | Validation acc : 85.13000%
-Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch : 029 | Training loss : 2.31081 | Training acc : 10.06400%
+Epoch : 029 | Validation loss : 2.31594 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 029 with validation acc 10.00000
 ----------------------------------------------------------------------
-Epoch : 030 | Training loss : 0.22814 | Training acc : 92.55000%
-Epoch : 030 | Validation loss : 0.50695 | Validation acc : 84.18000%
-Adjusting learning rate of group 0 to 5.0000e-02.
+Epoch : 030 | Training loss : 2.31126 | Training acc : 10.00000%
+Epoch : 030 | Validation loss : 2.31176 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 030 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 031 | Training loss : 2.31104 | Training acc : 10.22200%
+Epoch : 031 | Validation loss : 2.31609 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 031 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 032 | Training loss : 2.31118 | Training acc : 10.05800%
+Epoch : 032 | Validation loss : 2.31377 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 032 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 033 | Training loss : 2.31254 | Training acc : 9.81400%
+Epoch : 033 | Validation loss : 2.30923 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 033 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 034 | Training loss : 2.31080 | Training acc : 10.15400%
+Epoch : 034 | Validation loss : 2.31399 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 034 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 035 | Training loss : 2.31144 | Training acc : 10.16400%
+Epoch : 035 | Validation loss : 2.30842 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 035 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 036 | Training loss : 2.31306 | Training acc : 9.69200%
+Epoch : 036 | Validation loss : 2.30710 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 036 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 037 | Training loss : 2.30975 | Training acc : 9.92200%
+Epoch : 037 | Validation loss : 2.30880 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 037 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 038 | Training loss : 2.31077 | Training acc : 9.94200%
+Epoch : 038 | Validation loss : 2.30581 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 038 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 039 | Training loss : 2.31155 | Training acc : 10.01600%
+Epoch : 039 | Validation loss : 2.31314 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 039 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 040 | Training loss : 2.31094 | Training acc : 10.12800%
+Epoch : 040 | Validation loss : 2.30646 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 040 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 041 | Training loss : 2.31066 | Training acc : 10.09800%
+Epoch : 041 | Validation loss : 2.31120 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 041 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 042 | Training loss : 2.31182 | Training acc : 9.89600%
+Epoch : 042 | Validation loss : 2.30736 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 042 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 043 | Training loss : 2.31246 | Training acc : 9.80800%
+Epoch : 043 | Validation loss : 2.31367 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 043 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 044 | Training loss : 2.31108 | Training acc : 9.92400%
+Epoch : 044 | Validation loss : 2.30711 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 044 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 045 | Training loss : 2.31120 | Training acc : 9.99400%
+Epoch : 045 | Validation loss : 2.31032 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 045 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 046 | Training loss : 2.31171 | Training acc : 9.86600%
+Epoch : 046 | Validation loss : 2.31722 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 046 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 047 | Training loss : 2.31159 | Training acc : 10.21000%
+Epoch : 047 | Validation loss : 2.30516 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 047 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 048 | Training loss : 2.31001 | Training acc : 10.21600%
+Epoch : 048 | Validation loss : 2.31424 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 048 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 049 | Training loss : 2.31197 | Training acc : 9.90200%
+Epoch : 049 | Validation loss : 2.31810 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 5.0000e-01.
+Best model is updated at epoch 049 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 050 | Training loss : 2.31171 | Training acc : 10.12000%
+Epoch : 050 | Validation loss : 2.31019 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 050 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 051 | Training loss : 2.30731 | Training acc : 10.03000%
+Epoch : 051 | Validation loss : 2.30579 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 051 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 052 | Training loss : 2.30682 | Training acc : 10.12000%
+Epoch : 052 | Validation loss : 2.30444 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 052 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 053 | Training loss : 2.30767 | Training acc : 9.77000%
+Epoch : 053 | Validation loss : 2.30473 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 053 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 054 | Training loss : 2.30709 | Training acc : 10.05000%
+Epoch : 054 | Validation loss : 2.30567 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 054 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 055 | Training loss : 2.30618 | Training acc : 10.05600%
+Epoch : 055 | Validation loss : 2.30404 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 055 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 056 | Training loss : 2.30710 | Training acc : 10.12400%
+Epoch : 056 | Validation loss : 2.30904 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 056 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 057 | Training loss : 2.30712 | Training acc : 10.02400%
+Epoch : 057 | Validation loss : 2.31107 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 057 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 058 | Training loss : 2.30720 | Training acc : 9.91000%
+Epoch : 058 | Validation loss : 2.30713 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 058 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 059 | Training loss : 2.30601 | Training acc : 10.03000%
+Epoch : 059 | Validation loss : 2.30574 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 059 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 060 | Training loss : 2.30688 | Training acc : 9.76400%
+Epoch : 060 | Validation loss : 2.30844 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 060 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 061 | Training loss : 2.30703 | Training acc : 10.14200%
+Epoch : 061 | Validation loss : 2.30561 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 061 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 062 | Training loss : 2.30716 | Training acc : 9.99600%
+Epoch : 062 | Validation loss : 2.30483 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 062 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 063 | Training loss : 2.30699 | Training acc : 10.01800%
+Epoch : 063 | Validation loss : 2.30406 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 063 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 064 | Training loss : 2.30727 | Training acc : 9.93400%
+Epoch : 064 | Validation loss : 2.30535 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 064 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 065 | Training loss : 2.30670 | Training acc : 9.87000%
+Epoch : 065 | Validation loss : 2.30536 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 065 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 066 | Training loss : 2.30670 | Training acc : 10.02600%
+Epoch : 066 | Validation loss : 2.30790 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 066 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 067 | Training loss : 2.30695 | Training acc : 9.79800%
+Epoch : 067 | Validation loss : 2.30970 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 067 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 068 | Training loss : 2.30746 | Training acc : 9.77000%
+Epoch : 068 | Validation loss : 2.30749 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 068 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 069 | Training loss : 2.30754 | Training acc : 9.96000%
+Epoch : 069 | Validation loss : 2.30663 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 069 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 070 | Training loss : 2.30792 | Training acc : 9.75400%
+Epoch : 070 | Validation loss : 2.30763 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 070 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 071 | Training loss : 2.30627 | Training acc : 10.11400%
+Epoch : 071 | Validation loss : 2.31087 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 071 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 072 | Training loss : 2.30740 | Training acc : 9.85000%
+Epoch : 072 | Validation loss : 2.30565 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 072 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 073 | Training loss : 2.30702 | Training acc : 9.78800%
+Epoch : 073 | Validation loss : 2.30541 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 073 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 074 | Training loss : 2.30688 | Training acc : 9.85800%
+Epoch : 074 | Validation loss : 2.30628 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 2.5000e-01.
+Best model is updated at epoch 074 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 075 | Training loss : 2.30652 | Training acc : 10.21800%
+Epoch : 075 | Validation loss : 2.31116 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 075 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 076 | Training loss : 2.30463 | Training acc : 10.03000%
+Epoch : 076 | Validation loss : 2.30634 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 076 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 077 | Training loss : 2.30529 | Training acc : 9.55200%
+Epoch : 077 | Validation loss : 2.30414 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 077 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 078 | Training loss : 2.30480 | Training acc : 10.00000%
+Epoch : 078 | Validation loss : 2.30601 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 078 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 079 | Training loss : 2.30486 | Training acc : 9.81000%
+Epoch : 079 | Validation loss : 2.30429 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 079 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 080 | Training loss : 2.30477 | Training acc : 9.84000%
+Epoch : 080 | Validation loss : 2.30443 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 080 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 081 | Training loss : 2.30514 | Training acc : 10.09400%
+Epoch : 081 | Validation loss : 2.30599 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 081 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 082 | Training loss : 2.30530 | Training acc : 9.96400%
+Epoch : 082 | Validation loss : 2.30448 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 082 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 083 | Training loss : 2.30460 | Training acc : 10.20000%
+Epoch : 083 | Validation loss : 2.30392 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 083 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 084 | Training loss : 2.30508 | Training acc : 9.75600%
+Epoch : 084 | Validation loss : 2.30445 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 084 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 085 | Training loss : 2.30471 | Training acc : 9.98600%
+Epoch : 085 | Validation loss : 2.30356 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 085 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 086 | Training loss : 2.30458 | Training acc : 10.01600%
+Epoch : 086 | Validation loss : 2.30292 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 086 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 087 | Training loss : 2.30454 | Training acc : 9.98600%
+Epoch : 087 | Validation loss : 2.30512 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 087 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 088 | Training loss : 2.30435 | Training acc : 10.22400%
+Epoch : 088 | Validation loss : 2.30479 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 088 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 089 | Training loss : 2.30484 | Training acc : 10.14000%
+Epoch : 089 | Validation loss : 2.30404 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 089 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 090 | Training loss : 2.30471 | Training acc : 9.81800%
+Epoch : 090 | Validation loss : 2.30559 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 090 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 091 | Training loss : 2.30486 | Training acc : 10.02400%
+Epoch : 091 | Validation loss : 2.30427 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 091 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 092 | Training loss : 2.30447 | Training acc : 10.19200%
+Epoch : 092 | Validation loss : 2.30538 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 092 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 093 | Training loss : 2.30498 | Training acc : 9.68000%
+Epoch : 093 | Validation loss : 2.30336 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 093 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 094 | Training loss : 2.30482 | Training acc : 10.02800%
+Epoch : 094 | Validation loss : 2.30578 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 094 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 095 | Training loss : 2.30484 | Training acc : 9.80600%
+Epoch : 095 | Validation loss : 2.30373 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 095 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 096 | Training loss : 2.30444 | Training acc : 10.09000%
+Epoch : 096 | Validation loss : 2.30467 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 096 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 097 | Training loss : 2.30479 | Training acc : 9.94400%
+Epoch : 097 | Validation loss : 2.30654 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 097 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 098 | Training loss : 2.30505 | Training acc : 9.85400%
+Epoch : 098 | Validation loss : 2.30478 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 098 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 099 | Training loss : 2.30490 | Training acc : 10.04400%
+Epoch : 099 | Validation loss : 2.30601 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.2500e-01.
+Best model is updated at epoch 099 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 100 | Training loss : 2.30491 | Training acc : 9.96000%
+Epoch : 100 | Validation loss : 2.30340 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 100 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 101 | Training loss : 2.30394 | Training acc : 10.03000%
+Epoch : 101 | Validation loss : 2.30331 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 101 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 102 | Training loss : 2.30368 | Training acc : 10.11800%
+Epoch : 102 | Validation loss : 2.30323 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 102 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 103 | Training loss : 2.30363 | Training acc : 9.68600%
+Epoch : 103 | Validation loss : 2.30363 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 103 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 104 | Training loss : 2.30369 | Training acc : 10.00400%
+Epoch : 104 | Validation loss : 2.30404 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 104 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 105 | Training loss : 2.30359 | Training acc : 10.06200%
+Epoch : 105 | Validation loss : 2.30343 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 105 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 106 | Training loss : 2.30374 | Training acc : 9.92800%
+Epoch : 106 | Validation loss : 2.30302 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 106 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 107 | Training loss : 2.30364 | Training acc : 10.04800%
+Epoch : 107 | Validation loss : 2.30344 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 107 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 108 | Training loss : 2.30372 | Training acc : 9.86000%
+Epoch : 108 | Validation loss : 2.30330 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 108 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 109 | Training loss : 2.30373 | Training acc : 10.07200%
+Epoch : 109 | Validation loss : 2.30354 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 109 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 110 | Training loss : 2.30392 | Training acc : 9.98600%
+Epoch : 110 | Validation loss : 2.30331 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 110 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 111 | Training loss : 2.30366 | Training acc : 9.95600%
+Epoch : 111 | Validation loss : 2.30304 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 111 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 112 | Training loss : 2.30388 | Training acc : 10.02400%
+Epoch : 112 | Validation loss : 2.30363 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 112 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 113 | Training loss : 2.30375 | Training acc : 10.01000%
+Epoch : 113 | Validation loss : 2.30359 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 113 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 114 | Training loss : 2.30377 | Training acc : 9.96000%
+Epoch : 114 | Validation loss : 2.30390 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 114 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 115 | Training loss : 2.30366 | Training acc : 10.00800%
+Epoch : 115 | Validation loss : 2.30413 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 115 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 116 | Training loss : 2.30371 | Training acc : 10.05600%
+Epoch : 116 | Validation loss : 2.30400 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 116 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 117 | Training loss : 2.30348 | Training acc : 10.25200%
+Epoch : 117 | Validation loss : 2.30453 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 117 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 118 | Training loss : 2.30378 | Training acc : 9.82800%
+Epoch : 118 | Validation loss : 2.30298 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 118 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 119 | Training loss : 2.30363 | Training acc : 9.96000%
+Epoch : 119 | Validation loss : 2.30296 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 119 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 120 | Training loss : 2.30371 | Training acc : 9.99600%
+Epoch : 120 | Validation loss : 2.30427 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 120 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 121 | Training loss : 2.30380 | Training acc : 9.82400%
+Epoch : 121 | Validation loss : 2.30306 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 121 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 122 | Training loss : 2.30372 | Training acc : 9.94400%
+Epoch : 122 | Validation loss : 2.30426 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 122 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 123 | Training loss : 2.30401 | Training acc : 9.76000%
+Epoch : 123 | Validation loss : 2.30402 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 123 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 124 | Training loss : 2.30394 | Training acc : 9.75400%
+Epoch : 124 | Validation loss : 2.30343 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 6.2500e-02.
+Best model is updated at epoch 124 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 125 | Training loss : 2.30388 | Training acc : 9.92000%
+Epoch : 125 | Validation loss : 2.30359 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 125 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 126 | Training loss : 2.30335 | Training acc : 9.93400%
+Epoch : 126 | Validation loss : 2.30311 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 126 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 127 | Training loss : 2.30326 | Training acc : 9.97600%
+Epoch : 127 | Validation loss : 2.30314 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 127 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 128 | Training loss : 2.30320 | Training acc : 10.15400%
+Epoch : 128 | Validation loss : 2.30319 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 128 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 129 | Training loss : 2.30320 | Training acc : 9.91400%
+Epoch : 129 | Validation loss : 2.30292 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 129 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 130 | Training loss : 2.30307 | Training acc : 9.82200%
+Epoch : 130 | Validation loss : 2.30285 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 130 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 131 | Training loss : 2.30318 | Training acc : 9.83600%
+Epoch : 131 | Validation loss : 2.30345 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 131 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 132 | Training loss : 2.30325 | Training acc : 9.90800%
+Epoch : 132 | Validation loss : 2.30316 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 132 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 133 | Training loss : 2.30321 | Training acc : 9.84400%
+Epoch : 133 | Validation loss : 2.30284 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 133 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 134 | Training loss : 2.30323 | Training acc : 9.94400%
+Epoch : 134 | Validation loss : 2.30297 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 134 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 135 | Training loss : 2.30319 | Training acc : 9.93400%
+Epoch : 135 | Validation loss : 2.30318 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 135 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 136 | Training loss : 2.30325 | Training acc : 9.97600%
+Epoch : 136 | Validation loss : 2.30277 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 136 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 137 | Training loss : 2.30318 | Training acc : 9.82000%
+Epoch : 137 | Validation loss : 2.30306 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 137 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 138 | Training loss : 2.30322 | Training acc : 10.08800%
+Epoch : 138 | Validation loss : 2.30309 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 138 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 139 | Training loss : 2.30320 | Training acc : 10.04400%
+Epoch : 139 | Validation loss : 2.30287 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 139 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 140 | Training loss : 2.30316 | Training acc : 9.97200%
+Epoch : 140 | Validation loss : 2.30313 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 140 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 141 | Training loss : 2.30315 | Training acc : 9.95800%
+Epoch : 141 | Validation loss : 2.30288 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 141 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 142 | Training loss : 2.30318 | Training acc : 9.78600%
+Epoch : 142 | Validation loss : 2.30327 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 142 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 143 | Training loss : 2.30326 | Training acc : 10.09000%
+Epoch : 143 | Validation loss : 2.30292 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 143 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 144 | Training loss : 2.30318 | Training acc : 9.79200%
+Epoch : 144 | Validation loss : 2.30293 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 144 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 145 | Training loss : 2.30319 | Training acc : 10.02600%
+Epoch : 145 | Validation loss : 2.30310 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 145 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 146 | Training loss : 2.30326 | Training acc : 10.04000%
+Epoch : 146 | Validation loss : 2.30322 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 146 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 147 | Training loss : 2.30326 | Training acc : 9.89000%
+Epoch : 147 | Validation loss : 2.30305 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 147 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 148 | Training loss : 2.30337 | Training acc : 9.96000%
+Epoch : 148 | Validation loss : 2.30285 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 148 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 149 | Training loss : 2.30334 | Training acc : 9.68600%
+Epoch : 149 | Validation loss : 2.30326 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 3.1250e-02.
+Best model is updated at epoch 149 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 150 | Training loss : 2.30312 | Training acc : 9.93800%
+Epoch : 150 | Validation loss : 2.30314 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 150 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 151 | Training loss : 2.30296 | Training acc : 9.96400%
+Epoch : 151 | Validation loss : 2.30273 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 151 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 152 | Training loss : 2.30296 | Training acc : 9.93400%
+Epoch : 152 | Validation loss : 2.30272 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 152 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 153 | Training loss : 2.30291 | Training acc : 10.05000%
+Epoch : 153 | Validation loss : 2.30271 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 153 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 154 | Training loss : 2.30294 | Training acc : 9.75000%
+Epoch : 154 | Validation loss : 2.30266 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 154 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 155 | Training loss : 2.30285 | Training acc : 9.95800%
+Epoch : 155 | Validation loss : 2.30281 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 155 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 156 | Training loss : 2.30291 | Training acc : 9.98600%
+Epoch : 156 | Validation loss : 2.30265 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 156 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 157 | Training loss : 2.30291 | Training acc : 9.87400%
+Epoch : 157 | Validation loss : 2.30286 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 157 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 158 | Training loss : 2.30297 | Training acc : 9.90400%
+Epoch : 158 | Validation loss : 2.30272 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 158 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 159 | Training loss : 2.30291 | Training acc : 9.93000%
+Epoch : 159 | Validation loss : 2.30277 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 159 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 160 | Training loss : 2.30299 | Training acc : 9.89000%
+Epoch : 160 | Validation loss : 2.30261 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 160 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 161 | Training loss : 2.30299 | Training acc : 9.75200%
+Epoch : 161 | Validation loss : 2.30278 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 161 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 162 | Training loss : 2.30295 | Training acc : 9.61600%
+Epoch : 162 | Validation loss : 2.30276 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 162 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 163 | Training loss : 2.30295 | Training acc : 9.65200%
+Epoch : 163 | Validation loss : 2.30271 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 163 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 164 | Training loss : 2.30283 | Training acc : 9.81000%
+Epoch : 164 | Validation loss : 2.30284 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 164 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 165 | Training loss : 2.30285 | Training acc : 10.03200%
+Epoch : 165 | Validation loss : 2.30286 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 165 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 166 | Training loss : 2.30283 | Training acc : 10.04800%
+Epoch : 166 | Validation loss : 2.30304 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 166 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 167 | Training loss : 2.30288 | Training acc : 9.94600%
+Epoch : 167 | Validation loss : 2.30292 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 167 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 168 | Training loss : 2.30292 | Training acc : 9.90400%
+Epoch : 168 | Validation loss : 2.30294 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 168 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 169 | Training loss : 2.30291 | Training acc : 9.88000%
+Epoch : 169 | Validation loss : 2.30263 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 169 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 170 | Training loss : 2.30298 | Training acc : 9.90400%
+Epoch : 170 | Validation loss : 2.30276 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 170 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 171 | Training loss : 2.30293 | Training acc : 9.93000%
+Epoch : 171 | Validation loss : 2.30276 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 171 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 172 | Training loss : 2.30293 | Training acc : 9.96400%
+Epoch : 172 | Validation loss : 2.30270 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 172 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 173 | Training loss : 2.30291 | Training acc : 9.87800%
+Epoch : 173 | Validation loss : 2.30276 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 173 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 174 | Training loss : 2.30292 | Training acc : 9.83200%
+Epoch : 174 | Validation loss : 2.30274 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 1.5625e-02.
+Best model is updated at epoch 174 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 175 | Training loss : 2.30292 | Training acc : 9.83400%
+Epoch : 175 | Validation loss : 2.30272 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 175 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 176 | Training loss : 2.30278 | Training acc : 9.81800%
+Epoch : 176 | Validation loss : 2.30267 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 176 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 177 | Training loss : 2.30285 | Training acc : 9.50200%
+Epoch : 177 | Validation loss : 2.30263 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 177 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 178 | Training loss : 2.30276 | Training acc : 9.95800%
+Epoch : 178 | Validation loss : 2.30266 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 178 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 179 | Training loss : 2.30281 | Training acc : 9.71400%
+Epoch : 179 | Validation loss : 2.30262 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 179 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 180 | Training loss : 2.30279 | Training acc : 9.77200%
+Epoch : 180 | Validation loss : 2.30263 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 180 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 181 | Training loss : 2.30274 | Training acc : 9.69200%
+Epoch : 181 | Validation loss : 2.30265 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 181 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 182 | Training loss : 2.30279 | Training acc : 9.99800%
+Epoch : 182 | Validation loss : 2.30268 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 182 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 183 | Training loss : 2.30280 | Training acc : 9.72800%
+Epoch : 183 | Validation loss : 2.30265 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 183 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 184 | Training loss : 2.30281 | Training acc : 9.65200%
+Epoch : 184 | Validation loss : 2.30263 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 184 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 185 | Training loss : 2.30273 | Training acc : 9.82400%
+Epoch : 185 | Validation loss : 2.30264 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 185 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 186 | Training loss : 2.30277 | Training acc : 9.95800%
+Epoch : 186 | Validation loss : 2.30273 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 186 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 187 | Training loss : 2.30279 | Training acc : 9.96000%
+Epoch : 187 | Validation loss : 2.30265 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 187 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 188 | Training loss : 2.30276 | Training acc : 9.90600%
+Epoch : 188 | Validation loss : 2.30269 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 188 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 189 | Training loss : 2.30277 | Training acc : 9.78400%
+Epoch : 189 | Validation loss : 2.30263 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 189 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 190 | Training loss : 2.30275 | Training acc : 9.91800%
+Epoch : 190 | Validation loss : 2.30267 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 190 with validation acc 10.00000
+----------------------------------------------------------------------
+Epoch : 191 | Training loss : 2.30281 | Training acc : 9.79200%
+Epoch : 191 | Validation loss : 2.30259 | Validation acc : 10.00000%
+Adjusting learning rate of group 0 to 7.8125e-03.
+Best model is updated at epoch 191 with validation acc 10.00000
 ----------------------------------------------------------------------
