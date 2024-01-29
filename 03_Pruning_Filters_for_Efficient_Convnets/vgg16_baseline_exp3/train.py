@@ -41,7 +41,7 @@ print(f"# of trainable parameters : {total_trainable_params}")
 
 # hyper parameteres & optimizer
 batch_size = 128
-lr = 1
+lr = 0.1
 lr_decay = 1e-7
 weight_decay = 0.0005
 momentum = 0.9
@@ -60,6 +60,15 @@ writer.add_graph(model, input_tensor)
 
 num_val_batches = len(val_loader)
 print(f"# of validation batches : {num_val_batches}")
+
+## He normal initialization
+# kaiming initialization
+def init_weights(m) :
+    if isinstance(m, nn.Conv2d) :
+        init.kaiming_normal_(m.weight.data, mode='fan_out', nonlinearity='relu')
+        
+# check the weight initialization
+model.apply(init_weights)
 
 train_acc_list = []
 train_loss_list = []
