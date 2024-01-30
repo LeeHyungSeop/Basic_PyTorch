@@ -150,3 +150,1100 @@ Epoch : 032 | Training loss : 0.19910 | Training acc : 93.43800%
 Epoch : 032 | Validation loss : 0.49058 | Validation acc : 85.32000%
 Adjusting learning rate of group 0 to 5.0000e-02.
 ----------------------------------------------------------------------
+Epoch : 033 | Training loss : 0.20184 | Training acc : 93.50000%
+Epoch : 033 | Validation loss : 0.51777 | Validation acc : 84.17000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 034 | Training loss : 0.19825 | Training acc : 93.66600%
+Epoch : 034 | Validation loss : 0.49380 | Validation acc : 84.60000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 035 | Training loss : 0.20146 | Training acc : 93.37000%
+Epoch : 035 | Validation loss : 0.54832 | Validation acc : 83.72000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 036 | Training loss : 0.19664 | Training acc : 93.56600%
+Epoch : 036 | Validation loss : 0.50796 | Validation acc : 84.78000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 037 | Training loss : 0.20206 | Training acc : 93.42200%
+Epoch : 037 | Validation loss : 0.54483 | Validation acc : 83.97000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 038 | Training loss : 0.19213 | Training acc : 93.81400%
+Epoch : 038 | Validation loss : 0.44393 | Validation acc : 86.75000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 039 | Training loss : 0.18928 | Training acc : 93.89200%
+Epoch : 039 | Validation loss : 0.77913 | Validation acc : 79.29000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 040 | Training loss : 0.19290 | Training acc : 93.79400%
+Epoch : 040 | Validation loss : 0.50704 | Validation acc : 84.59000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 041 | Training loss : 0.18702 | Training acc : 93.96400%
+Epoch : 041 | Validation loss : 0.47412 | Validation acc : 85.30000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 042 | Training loss : 0.18688 | Training acc : 93.98000%
+Epoch : 042 | Validation loss : 0.61375 | Validation acc : 82.41000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 043 | Training loss : 0.18398 | Training acc : 93.96000%
+Epoch : 043 | Validation loss : 0.58158 | Validation acc : 82.91000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 044 | Training loss : 0.18224 | Training acc : 94.10200%
+Epoch : 044 | Validation loss : 0.61349 | Validation acc : 82.40000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 045 | Training loss : 0.18737 | Training acc : 93.96400%
+Epoch : 045 | Validation loss : 0.55583 | Validation acc : 83.57000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 046 | Training loss : 0.18517 | Training acc : 93.98600%
+Epoch : 046 | Validation loss : 0.54570 | Validation acc : 83.84000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 047 | Training loss : 0.18423 | Training acc : 94.01800%
+Epoch : 047 | Validation loss : 0.52922 | Validation acc : 84.31000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 048 | Training loss : 0.17802 | Training acc : 94.24800%
+Epoch : 048 | Validation loss : 0.85565 | Validation acc : 77.56000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 049 | Training loss : 0.18540 | Training acc : 94.07800%
+Epoch : 049 | Validation loss : 0.58224 | Validation acc : 82.74000%
+Adjusting learning rate of group 0 to 5.0000e-02.
+----------------------------------------------------------------------
+Epoch : 050 | Training loss : 0.18384 | Training acc : 93.99000%
+Epoch : 050 | Validation loss : 0.50741 | Validation acc : 85.31000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 051 | Training loss : 0.08418 | Training acc : 97.19200%
+Epoch : 051 | Validation loss : 0.38939 | Validation acc : 89.02000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+Best model is updated at epoch 051 with validation acc 89.02000
+----------------------------------------------------------------------
+Epoch : 052 | Training loss : 0.05865 | Training acc : 98.14200%
+Epoch : 052 | Validation loss : 0.42665 | Validation acc : 88.41000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 053 | Training loss : 0.06048 | Training acc : 98.13200%
+Epoch : 053 | Validation loss : 0.43514 | Validation acc : 87.88000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 054 | Training loss : 0.05927 | Training acc : 98.13400%
+Epoch : 054 | Validation loss : 0.43693 | Validation acc : 88.06000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 055 | Training loss : 0.06992 | Training acc : 97.78200%
+Epoch : 055 | Validation loss : 0.44186 | Validation acc : 88.05000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 056 | Training loss : 0.07569 | Training acc : 97.63400%
+Epoch : 056 | Validation loss : 0.53543 | Validation acc : 85.81000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 057 | Training loss : 0.08003 | Training acc : 97.42400%
+Epoch : 057 | Validation loss : 0.47935 | Validation acc : 87.19000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 058 | Training loss : 0.08344 | Training acc : 97.34800%
+Epoch : 058 | Validation loss : 0.48314 | Validation acc : 87.36000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 059 | Training loss : 0.08331 | Training acc : 97.29800%
+Epoch : 059 | Validation loss : 0.45871 | Validation acc : 87.39000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 060 | Training loss : 0.08432 | Training acc : 97.22000%
+Epoch : 060 | Validation loss : 0.46162 | Validation acc : 87.54000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 061 | Training loss : 0.09146 | Training acc : 96.98400%
+Epoch : 061 | Validation loss : 0.43201 | Validation acc : 88.15000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 062 | Training loss : 0.08995 | Training acc : 97.18000%
+Epoch : 062 | Validation loss : 0.53225 | Validation acc : 85.54000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 063 | Training loss : 0.08817 | Training acc : 97.20800%
+Epoch : 063 | Validation loss : 0.44190 | Validation acc : 87.94000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 064 | Training loss : 0.09300 | Training acc : 96.99800%
+Epoch : 064 | Validation loss : 0.42751 | Validation acc : 88.23000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 065 | Training loss : 0.09217 | Training acc : 97.04400%
+Epoch : 065 | Validation loss : 0.57301 | Validation acc : 84.76000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 066 | Training loss : 0.09615 | Training acc : 96.90000%
+Epoch : 066 | Validation loss : 0.44701 | Validation acc : 87.76000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 067 | Training loss : 0.09607 | Training acc : 96.95000%
+Epoch : 067 | Validation loss : 0.44930 | Validation acc : 87.34000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 068 | Training loss : 0.08566 | Training acc : 97.24800%
+Epoch : 068 | Validation loss : 0.53379 | Validation acc : 85.74000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 069 | Training loss : 0.09046 | Training acc : 97.10200%
+Epoch : 069 | Validation loss : 0.42646 | Validation acc : 87.99000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 070 | Training loss : 0.09258 | Training acc : 97.06400%
+Epoch : 070 | Validation loss : 0.51508 | Validation acc : 86.43000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 071 | Training loss : 0.09078 | Training acc : 97.11000%
+Epoch : 071 | Validation loss : 0.62836 | Validation acc : 83.98000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 072 | Training loss : 0.08749 | Training acc : 97.24600%
+Epoch : 072 | Validation loss : 0.45925 | Validation acc : 87.47000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 073 | Training loss : 0.09276 | Training acc : 97.02600%
+Epoch : 073 | Validation loss : 0.47770 | Validation acc : 86.97000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 074 | Training loss : 0.08748 | Training acc : 97.20200%
+Epoch : 074 | Validation loss : 0.49729 | Validation acc : 86.28000%
+Adjusting learning rate of group 0 to 2.5000e-02.
+----------------------------------------------------------------------
+Epoch : 075 | Training loss : 0.08937 | Training acc : 97.22000%
+Epoch : 075 | Validation loss : 0.46338 | Validation acc : 87.10000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 076 | Training loss : 0.02934 | Training acc : 99.12200%
+Epoch : 076 | Validation loss : 0.38323 | Validation acc : 90.56000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+Best model is updated at epoch 076 with validation acc 90.56000
+----------------------------------------------------------------------
+Epoch : 077 | Training loss : 0.01843 | Training acc : 99.43600%
+Epoch : 077 | Validation loss : 0.44750 | Validation acc : 89.54000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 078 | Training loss : 0.01661 | Training acc : 99.50200%
+Epoch : 078 | Validation loss : 0.45616 | Validation acc : 89.64000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 079 | Training loss : 0.01961 | Training acc : 99.41200%
+Epoch : 079 | Validation loss : 0.43447 | Validation acc : 89.98000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 080 | Training loss : 0.01922 | Training acc : 99.43800%
+Epoch : 080 | Validation loss : 0.45682 | Validation acc : 89.36000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 081 | Training loss : 0.01673 | Training acc : 99.53600%
+Epoch : 081 | Validation loss : 0.46645 | Validation acc : 89.24000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 082 | Training loss : 0.02472 | Training acc : 99.26400%
+Epoch : 082 | Validation loss : 0.44503 | Validation acc : 89.59000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 083 | Training loss : 0.02289 | Training acc : 99.36400%
+Epoch : 083 | Validation loss : 0.47621 | Validation acc : 89.07000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 084 | Training loss : 0.02665 | Training acc : 99.21000%
+Epoch : 084 | Validation loss : 0.49701 | Validation acc : 88.79000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 085 | Training loss : 0.03345 | Training acc : 99.02000%
+Epoch : 085 | Validation loss : 0.46892 | Validation acc : 89.01000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 086 | Training loss : 0.03489 | Training acc : 98.95200%
+Epoch : 086 | Validation loss : 0.47185 | Validation acc : 88.48000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 087 | Training loss : 0.03119 | Training acc : 99.06200%
+Epoch : 087 | Validation loss : 0.46918 | Validation acc : 88.32000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 088 | Training loss : 0.03709 | Training acc : 98.85600%
+Epoch : 088 | Validation loss : 0.44349 | Validation acc : 89.05000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 089 | Training loss : 0.04078 | Training acc : 98.70800%
+Epoch : 089 | Validation loss : 0.52547 | Validation acc : 87.54000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 090 | Training loss : 0.04174 | Training acc : 98.72400%
+Epoch : 090 | Validation loss : 0.53496 | Validation acc : 87.33000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 091 | Training loss : 0.03923 | Training acc : 98.75400%
+Epoch : 091 | Validation loss : 0.48135 | Validation acc : 88.20000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 092 | Training loss : 0.04597 | Training acc : 98.58400%
+Epoch : 092 | Validation loss : 0.46864 | Validation acc : 88.88000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 093 | Training loss : 0.04134 | Training acc : 98.72000%
+Epoch : 093 | Validation loss : 0.54409 | Validation acc : 87.15000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 094 | Training loss : 0.04031 | Training acc : 98.73200%
+Epoch : 094 | Validation loss : 0.47651 | Validation acc : 88.32000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 095 | Training loss : 0.04033 | Training acc : 98.80400%
+Epoch : 095 | Validation loss : 0.42698 | Validation acc : 89.39000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 096 | Training loss : 0.04095 | Training acc : 98.75800%
+Epoch : 096 | Validation loss : 0.44631 | Validation acc : 88.89000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 097 | Training loss : 0.04082 | Training acc : 98.72200%
+Epoch : 097 | Validation loss : 0.51002 | Validation acc : 87.39000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 098 | Training loss : 0.04589 | Training acc : 98.58400%
+Epoch : 098 | Validation loss : 0.44671 | Validation acc : 88.86000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 099 | Training loss : 0.04294 | Training acc : 98.69800%
+Epoch : 099 | Validation loss : 0.44629 | Validation acc : 88.56000%
+Adjusting learning rate of group 0 to 1.2500e-02.
+----------------------------------------------------------------------
+Epoch : 100 | Training loss : 0.04519 | Training acc : 98.62000%
+Epoch : 100 | Validation loss : 0.46388 | Validation acc : 88.21000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 101 | Training loss : 0.01617 | Training acc : 99.54800%
+Epoch : 101 | Validation loss : 0.39812 | Validation acc : 90.55000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 102 | Training loss : 0.00708 | Training acc : 99.84400%
+Epoch : 102 | Validation loss : 0.41383 | Validation acc : 90.93000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+Best model is updated at epoch 102 with validation acc 90.93000
+----------------------------------------------------------------------
+Epoch : 103 | Training loss : 0.00444 | Training acc : 99.92800%
+Epoch : 103 | Validation loss : 0.41736 | Validation acc : 90.83000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 104 | Training loss : 0.00339 | Training acc : 99.95800%
+Epoch : 104 | Validation loss : 0.42448 | Validation acc : 90.81000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 105 | Training loss : 0.00351 | Training acc : 99.94600%
+Epoch : 105 | Validation loss : 0.44984 | Validation acc : 90.49000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 106 | Training loss : 0.00399 | Training acc : 99.92800%
+Epoch : 106 | Validation loss : 0.44104 | Validation acc : 91.00000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+Best model is updated at epoch 106 with validation acc 91.00000
+----------------------------------------------------------------------
+Epoch : 107 | Training loss : 0.00392 | Training acc : 99.93000%
+Epoch : 107 | Validation loss : 0.45601 | Validation acc : 90.93000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 108 | Training loss : 0.00555 | Training acc : 99.88000%
+Epoch : 108 | Validation loss : 0.45544 | Validation acc : 90.53000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 109 | Training loss : 0.00648 | Training acc : 99.84000%
+Epoch : 109 | Validation loss : 0.46297 | Validation acc : 90.43000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 110 | Training loss : 0.00797 | Training acc : 99.80600%
+Epoch : 110 | Validation loss : 0.45618 | Validation acc : 90.47000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 111 | Training loss : 0.00844 | Training acc : 99.79000%
+Epoch : 111 | Validation loss : 0.46697 | Validation acc : 90.31000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 112 | Training loss : 0.01285 | Training acc : 99.67000%
+Epoch : 112 | Validation loss : 0.48781 | Validation acc : 89.17000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 113 | Training loss : 0.00825 | Training acc : 99.80800%
+Epoch : 113 | Validation loss : 0.47920 | Validation acc : 89.91000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 114 | Training loss : 0.01071 | Training acc : 99.70600%
+Epoch : 114 | Validation loss : 0.46352 | Validation acc : 89.86000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 115 | Training loss : 0.01200 | Training acc : 99.65000%
+Epoch : 115 | Validation loss : 0.47470 | Validation acc : 89.85000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 116 | Training loss : 0.01178 | Training acc : 99.68600%
+Epoch : 116 | Validation loss : 0.49008 | Validation acc : 89.76000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 117 | Training loss : 0.01763 | Training acc : 99.50800%
+Epoch : 117 | Validation loss : 0.44811 | Validation acc : 90.21000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 118 | Training loss : 0.01421 | Training acc : 99.61800%
+Epoch : 118 | Validation loss : 0.46256 | Validation acc : 89.79000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 119 | Training loss : 0.01431 | Training acc : 99.61600%
+Epoch : 119 | Validation loss : 0.50437 | Validation acc : 89.23000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 120 | Training loss : 0.01729 | Training acc : 99.50800%
+Epoch : 120 | Validation loss : 0.45661 | Validation acc : 89.93000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 121 | Training loss : 0.01684 | Training acc : 99.51600%
+Epoch : 121 | Validation loss : 0.44916 | Validation acc : 90.00000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 122 | Training loss : 0.01738 | Training acc : 99.51200%
+Epoch : 122 | Validation loss : 0.46274 | Validation acc : 89.78000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 123 | Training loss : 0.01136 | Training acc : 99.69000%
+Epoch : 123 | Validation loss : 0.50041 | Validation acc : 89.29000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 124 | Training loss : 0.01926 | Training acc : 99.46400%
+Epoch : 124 | Validation loss : 0.45267 | Validation acc : 89.79000%
+Adjusting learning rate of group 0 to 6.2500e-03.
+----------------------------------------------------------------------
+Epoch : 125 | Training loss : 0.01808 | Training acc : 99.48600%
+Epoch : 125 | Validation loss : 0.48708 | Validation acc : 89.33000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 126 | Training loss : 0.00894 | Training acc : 99.77600%
+Epoch : 126 | Validation loss : 0.42290 | Validation acc : 90.85000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 127 | Training loss : 0.00376 | Training acc : 99.94600%
+Epoch : 127 | Validation loss : 0.42002 | Validation acc : 91.02000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 127 with validation acc 91.02000
+----------------------------------------------------------------------
+Epoch : 128 | Training loss : 0.00386 | Training acc : 99.95200%
+Epoch : 128 | Validation loss : 0.41658 | Validation acc : 91.28000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 128 with validation acc 91.28000
+----------------------------------------------------------------------
+Epoch : 129 | Training loss : 0.00280 | Training acc : 99.96600%
+Epoch : 129 | Validation loss : 0.41194 | Validation acc : 91.43000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 129 with validation acc 91.43000
+----------------------------------------------------------------------
+Epoch : 130 | Training loss : 0.00258 | Training acc : 99.97800%
+Epoch : 130 | Validation loss : 0.40685 | Validation acc : 91.56000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 130 with validation acc 91.56000
+----------------------------------------------------------------------
+Epoch : 131 | Training loss : 0.00228 | Training acc : 99.99000%
+Epoch : 131 | Validation loss : 0.41804 | Validation acc : 91.32000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 132 | Training loss : 0.00190 | Training acc : 100.00000%
+Epoch : 132 | Validation loss : 0.41598 | Validation acc : 91.46000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 133 | Training loss : 0.00182 | Training acc : 100.00000%
+Epoch : 133 | Validation loss : 0.41352 | Validation acc : 91.64000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 133 with validation acc 91.64000
+----------------------------------------------------------------------
+Epoch : 134 | Training loss : 0.00190 | Training acc : 99.99600%
+Epoch : 134 | Validation loss : 0.41446 | Validation acc : 91.69000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 134 with validation acc 91.69000
+----------------------------------------------------------------------
+Epoch : 135 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 135 | Validation loss : 0.40533 | Validation acc : 91.68000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 136 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 136 | Validation loss : 0.40845 | Validation acc : 91.70000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 136 with validation acc 91.70000
+----------------------------------------------------------------------
+Epoch : 137 | Training loss : 0.00172 | Training acc : 100.00000%
+Epoch : 137 | Validation loss : 0.40683 | Validation acc : 91.76000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 137 with validation acc 91.76000
+----------------------------------------------------------------------
+Epoch : 138 | Training loss : 0.00190 | Training acc : 99.99400%
+Epoch : 138 | Validation loss : 0.40854 | Validation acc : 91.70000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 139 | Training loss : 0.00181 | Training acc : 99.99600%
+Epoch : 139 | Validation loss : 0.40660 | Validation acc : 91.70000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 140 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 140 | Validation loss : 0.40505 | Validation acc : 91.79000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 140 with validation acc 91.79000
+----------------------------------------------------------------------
+Epoch : 141 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 141 | Validation loss : 0.40851 | Validation acc : 91.80000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 141 with validation acc 91.80000
+----------------------------------------------------------------------
+Epoch : 142 | Training loss : 0.00181 | Training acc : 99.99600%
+Epoch : 142 | Validation loss : 0.40465 | Validation acc : 91.73000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 143 | Training loss : 0.00172 | Training acc : 100.00000%
+Epoch : 143 | Validation loss : 0.40868 | Validation acc : 91.81000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 143 with validation acc 91.81000
+----------------------------------------------------------------------
+Epoch : 144 | Training loss : 0.00178 | Training acc : 99.99800%
+Epoch : 144 | Validation loss : 0.40185 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 144 with validation acc 91.90000
+----------------------------------------------------------------------
+Epoch : 145 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 145 | Validation loss : 0.40512 | Validation acc : 91.72000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 146 | Training loss : 0.00172 | Training acc : 100.00000%
+Epoch : 146 | Validation loss : 0.40243 | Validation acc : 91.85000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 147 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 147 | Validation loss : 0.40130 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+Best model is updated at epoch 147 with validation acc 91.94000
+----------------------------------------------------------------------
+Epoch : 148 | Training loss : 0.00175 | Training acc : 99.99800%
+Epoch : 148 | Validation loss : 0.40573 | Validation acc : 91.84000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 149 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 149 | Validation loss : 0.40167 | Validation acc : 91.84000%
+Adjusting learning rate of group 0 to 3.1250e-03.
+----------------------------------------------------------------------
+Epoch : 150 | Training loss : 0.00173 | Training acc : 100.00000%
+Epoch : 150 | Validation loss : 0.40342 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 151 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 151 | Validation loss : 0.40276 | Validation acc : 91.77000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 152 | Training loss : 0.00172 | Training acc : 100.00000%
+Epoch : 152 | Validation loss : 0.40107 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 153 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 153 | Validation loss : 0.40408 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 154 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 154 | Validation loss : 0.40350 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+Best model is updated at epoch 154 with validation acc 91.94000
+----------------------------------------------------------------------
+Epoch : 155 | Training loss : 0.00173 | Training acc : 100.00000%
+Epoch : 155 | Validation loss : 0.39984 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 156 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 156 | Validation loss : 0.40018 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+Best model is updated at epoch 156 with validation acc 91.95000
+----------------------------------------------------------------------
+Epoch : 157 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 157 | Validation loss : 0.40181 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 158 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 158 | Validation loss : 0.40027 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 159 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 159 | Validation loss : 0.40133 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 160 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 160 | Validation loss : 0.40113 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 161 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 161 | Validation loss : 0.40211 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 162 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 162 | Validation loss : 0.40037 | Validation acc : 91.97000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+Best model is updated at epoch 162 with validation acc 91.97000
+----------------------------------------------------------------------
+Epoch : 163 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 163 | Validation loss : 0.40014 | Validation acc : 91.85000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 164 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 164 | Validation loss : 0.39960 | Validation acc : 92.03000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+Best model is updated at epoch 164 with validation acc 92.03000
+----------------------------------------------------------------------
+Epoch : 165 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 165 | Validation loss : 0.39970 | Validation acc : 91.88000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 166 | Training loss : 0.00173 | Training acc : 100.00000%
+Epoch : 166 | Validation loss : 0.40069 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 167 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 167 | Validation loss : 0.39985 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 168 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 168 | Validation loss : 0.39866 | Validation acc : 91.99000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 169 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 169 | Validation loss : 0.40044 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 170 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 170 | Validation loss : 0.39856 | Validation acc : 91.88000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 171 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 171 | Validation loss : 0.40161 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 172 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 172 | Validation loss : 0.39624 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 173 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 173 | Validation loss : 0.39899 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 174 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 174 | Validation loss : 0.39929 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 1.5625e-03.
+----------------------------------------------------------------------
+Epoch : 175 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 175 | Validation loss : 0.39868 | Validation acc : 91.80000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 176 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 176 | Validation loss : 0.39957 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 177 | Training loss : 0.00173 | Training acc : 100.00000%
+Epoch : 177 | Validation loss : 0.39880 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 178 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 178 | Validation loss : 0.39879 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 179 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 179 | Validation loss : 0.39710 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 180 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 180 | Validation loss : 0.39881 | Validation acc : 91.85000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 181 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 181 | Validation loss : 0.40044 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 182 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 182 | Validation loss : 0.39764 | Validation acc : 92.03000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+Best model is updated at epoch 182 with validation acc 92.03000
+----------------------------------------------------------------------
+Epoch : 183 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 183 | Validation loss : 0.39646 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 184 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 184 | Validation loss : 0.39624 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 185 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 185 | Validation loss : 0.39666 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 186 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 186 | Validation loss : 0.39738 | Validation acc : 91.88000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 187 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 187 | Validation loss : 0.39639 | Validation acc : 91.97000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 188 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 188 | Validation loss : 0.39624 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 189 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 189 | Validation loss : 0.39999 | Validation acc : 92.00000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 190 | Training loss : 0.00179 | Training acc : 100.00000%
+Epoch : 190 | Validation loss : 0.39952 | Validation acc : 91.88000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 191 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 191 | Validation loss : 0.40141 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 192 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 192 | Validation loss : 0.39659 | Validation acc : 91.85000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 193 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 193 | Validation loss : 0.39552 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 194 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 194 | Validation loss : 0.39822 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 195 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 195 | Validation loss : 0.39649 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 196 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 196 | Validation loss : 0.39889 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 197 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 197 | Validation loss : 0.39844 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 198 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 198 | Validation loss : 0.39615 | Validation acc : 91.98000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 199 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 199 | Validation loss : 0.39495 | Validation acc : 91.84000%
+Adjusting learning rate of group 0 to 7.8125e-04.
+----------------------------------------------------------------------
+Epoch : 200 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 200 | Validation loss : 0.39676 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 201 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 201 | Validation loss : 0.39673 | Validation acc : 92.02000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 202 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 202 | Validation loss : 0.39723 | Validation acc : 91.81000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 203 | Training loss : 0.00173 | Training acc : 100.00000%
+Epoch : 203 | Validation loss : 0.39549 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 204 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 204 | Validation loss : 0.39681 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 205 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 205 | Validation loss : 0.39672 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 206 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 206 | Validation loss : 0.39565 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 207 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 207 | Validation loss : 0.39708 | Validation acc : 92.01000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 208 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 208 | Validation loss : 0.39766 | Validation acc : 91.98000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 209 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 209 | Validation loss : 0.39665 | Validation acc : 91.99000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 210 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 210 | Validation loss : 0.39704 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 211 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 211 | Validation loss : 0.39536 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 212 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 212 | Validation loss : 0.39551 | Validation acc : 91.81000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 213 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 213 | Validation loss : 0.39944 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 214 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 214 | Validation loss : 0.39587 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 215 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 215 | Validation loss : 0.39683 | Validation acc : 92.08000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+Best model is updated at epoch 215 with validation acc 92.08000
+----------------------------------------------------------------------
+Epoch : 216 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 216 | Validation loss : 0.39746 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 217 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 217 | Validation loss : 0.39972 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 218 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 218 | Validation loss : 0.39499 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 219 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 219 | Validation loss : 0.39876 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 220 | Training loss : 0.00179 | Training acc : 100.00000%
+Epoch : 220 | Validation loss : 0.39353 | Validation acc : 92.00000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 221 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 221 | Validation loss : 0.39632 | Validation acc : 91.81000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 222 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 222 | Validation loss : 0.39699 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 223 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 223 | Validation loss : 0.39504 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 224 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 224 | Validation loss : 0.39540 | Validation acc : 92.01000%
+Adjusting learning rate of group 0 to 3.9063e-04.
+----------------------------------------------------------------------
+Epoch : 225 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 225 | Validation loss : 0.39679 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 226 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 226 | Validation loss : 0.39595 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 227 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 227 | Validation loss : 0.39857 | Validation acc : 91.85000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 228 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 228 | Validation loss : 0.39496 | Validation acc : 92.03000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 229 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 229 | Validation loss : 0.39740 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 230 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 230 | Validation loss : 0.39466 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 231 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 231 | Validation loss : 0.39744 | Validation acc : 91.98000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 232 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 232 | Validation loss : 0.39642 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 233 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 233 | Validation loss : 0.39571 | Validation acc : 92.00000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 234 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 234 | Validation loss : 0.39598 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 235 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 235 | Validation loss : 0.39721 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 236 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 236 | Validation loss : 0.39667 | Validation acc : 92.00000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 237 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 237 | Validation loss : 0.39493 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 238 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 238 | Validation loss : 0.39504 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 239 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 239 | Validation loss : 0.39535 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 240 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 240 | Validation loss : 0.39541 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 241 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 241 | Validation loss : 0.39348 | Validation acc : 91.88000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 242 | Training loss : 0.00180 | Training acc : 100.00000%
+Epoch : 242 | Validation loss : 0.39739 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 243 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 243 | Validation loss : 0.39246 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 244 | Training loss : 0.00179 | Training acc : 100.00000%
+Epoch : 244 | Validation loss : 0.39680 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 245 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 245 | Validation loss : 0.39681 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 246 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 246 | Validation loss : 0.39908 | Validation acc : 91.79000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 247 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 247 | Validation loss : 0.39379 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 248 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 248 | Validation loss : 0.39372 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 249 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 249 | Validation loss : 0.39522 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 1.9531e-04.
+----------------------------------------------------------------------
+Epoch : 250 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 250 | Validation loss : 0.39383 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 251 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 251 | Validation loss : 0.39580 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 252 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 252 | Validation loss : 0.39573 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 253 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 253 | Validation loss : 0.39684 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 254 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 254 | Validation loss : 0.39311 | Validation acc : 91.98000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 255 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 255 | Validation loss : 0.39850 | Validation acc : 91.99000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 256 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 256 | Validation loss : 0.39530 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 257 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 257 | Validation loss : 0.39620 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 258 | Training loss : 0.00181 | Training acc : 99.99800%
+Epoch : 258 | Validation loss : 0.39611 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 259 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 259 | Validation loss : 0.39590 | Validation acc : 92.01000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 260 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 260 | Validation loss : 0.39748 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 261 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 261 | Validation loss : 0.39577 | Validation acc : 91.89000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 262 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 262 | Validation loss : 0.39594 | Validation acc : 91.75000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 263 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 263 | Validation loss : 0.39595 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 264 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 264 | Validation loss : 0.39647 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 265 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 265 | Validation loss : 0.39723 | Validation acc : 91.88000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 266 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 266 | Validation loss : 0.39252 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 267 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 267 | Validation loss : 0.39600 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 268 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 268 | Validation loss : 0.39322 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 269 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 269 | Validation loss : 0.39608 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 270 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 270 | Validation loss : 0.39579 | Validation acc : 91.86000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 271 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 271 | Validation loss : 0.39848 | Validation acc : 91.82000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 272 | Training loss : 0.00174 | Training acc : 100.00000%
+Epoch : 272 | Validation loss : 0.39563 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 273 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 273 | Validation loss : 0.39389 | Validation acc : 91.83000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 274 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 274 | Validation loss : 0.39693 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 9.7656e-05.
+----------------------------------------------------------------------
+Epoch : 275 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 275 | Validation loss : 0.39465 | Validation acc : 91.87000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 276 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 276 | Validation loss : 0.39473 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 277 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 277 | Validation loss : 0.39895 | Validation acc : 92.02000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 278 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 278 | Validation loss : 0.39427 | Validation acc : 92.05000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 279 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 279 | Validation loss : 0.39583 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 280 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 280 | Validation loss : 0.39461 | Validation acc : 92.05000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 281 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 281 | Validation loss : 0.39454 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 282 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 282 | Validation loss : 0.39515 | Validation acc : 92.04000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 283 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 283 | Validation loss : 0.39634 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 284 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 284 | Validation loss : 0.39659 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 285 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 285 | Validation loss : 0.39540 | Validation acc : 92.00000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 286 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 286 | Validation loss : 0.39501 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 287 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 287 | Validation loss : 0.39453 | Validation acc : 92.00000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 288 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 288 | Validation loss : 0.39713 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 289 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 289 | Validation loss : 0.39407 | Validation acc : 91.85000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 290 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 290 | Validation loss : 0.39779 | Validation acc : 91.90000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 291 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 291 | Validation loss : 0.39378 | Validation acc : 92.06000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 292 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 292 | Validation loss : 0.39373 | Validation acc : 91.93000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 293 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 293 | Validation loss : 0.39436 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 294 | Training loss : 0.00177 | Training acc : 100.00000%
+Epoch : 294 | Validation loss : 0.39441 | Validation acc : 91.94000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 295 | Training loss : 0.00175 | Training acc : 100.00000%
+Epoch : 295 | Validation loss : 0.39457 | Validation acc : 91.95000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 296 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 296 | Validation loss : 0.39398 | Validation acc : 91.91000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 297 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 297 | Validation loss : 0.39211 | Validation acc : 91.99000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 298 | Training loss : 0.00178 | Training acc : 100.00000%
+Epoch : 298 | Validation loss : 0.39890 | Validation acc : 91.74000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 299 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 299 | Validation loss : 0.39493 | Validation acc : 91.92000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+Epoch : 300 | Training loss : 0.00176 | Training acc : 100.00000%
+Epoch : 300 | Validation loss : 0.39468 | Validation acc : 91.96000%
+Adjusting learning rate of group 0 to 4.8828e-05.
+----------------------------------------------------------------------
+
+Training Finished  ----------------------------------------------------------------------

@@ -1,0 +1,7 @@
+Files already downloaded and verified
+Files already downloaded and verified
+# train datas : 50000
+# test datas : 10000
+classes : ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+mini batch shape : torch.Size([128, 3, 32, 32])
+Top-1 Accuracy : 92.08000%

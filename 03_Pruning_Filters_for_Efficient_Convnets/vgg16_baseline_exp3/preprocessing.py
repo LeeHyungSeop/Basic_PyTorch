@@ -11,9 +11,6 @@ import numpy as np
 
 batch_size = 128
 
-trsize = 50000
-tesize = 10000
-
 # the image are converted to YUV and mean-std normalization is applied
 def rgb_to_yuv(image) :
     kornia.color.rgb_to_yuv(image)
@@ -49,6 +46,11 @@ valset = torchvision.datasets.CIFAR10(
 val_loader = torch.utils.data.DataLoader(valset, batch_size=batch_size,
                                          shuffle=False, num_workers=8, pin_memory=True)
 
+# the number of training data
+trsize = trainset.__len__()
+print(f"# train datas : {trsize}")
+tesize = valset.__len__()
+print(f"# test datas : {tesize}")
 
 classes = ('plane', 'car', 'bird', 'cat',
            'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
