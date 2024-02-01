@@ -1,8 +1,7 @@
-from preprocessing import train_loader, val_loader, trsize, tesize
 import sys
 sys.path.append("..")
 from architecture import VGG16_BN
-
+from utils import loadTrainDataset, loadValDataset, testAccuracy
 import torch
 import torchvision
 import torchvision.transforms as transforms
@@ -54,12 +53,24 @@ lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=np.arange(epoch_st
 print(np.arange(epoch_step, epochs, epoch_step))
 
 # Training
-writer = SummaryWriter('../runs/vgg16_baseline_exp1')
+writer = SummaryWriter('../runs/vgg16_baseline')
 input_tensor = torch.Tensor(128, 3, 32, 32).to(device)
 writer.add_graph(model, input_tensor)
 
+val_loader, tesize = loadValDataset()
+train_loader, trsize = loadTrainDataset(batch_size)
+
 num_val_batches = len(val_loader)
 print(f"# of validation batches : {num_val_batches}")
+
+## He normal initialization
+# kaiming initialization
+def init_weights(m) :
+    if isinstance(m, nn.Conv2d) :
+        init.kaiming_normal_(m.weight.data, mode='fan_out', nonlinearity='relu')
+        
+# check the weight initialization
+model.apply(init_weights)
 
 train_acc_list = []
 train_loss_list = []
@@ -145,3 +156,11 @@ with open('./checkpoint/val_acc_list.pkl', 'wb') as f :
     pickle.dump(val_acc_list, f)
 with open('./checkpoint/val_loss_list.pkl', 'wb') as f :
     pickle.dump(val_loss_list, f)
+    
+# load best model to test
+model = VGG16_BN()
+model.load_state_dict(torch.load('./checkpoint/best_model.pth')['model_state_dict'])
+top1_acc, top5_acc = testAccuracy(model, val_loader)
+print("Test Accuracy ", "-"*70)
+print(f"Top-1 Accuracy : {top1_acc:.2f} %")
+print(f"Top-5 Accuracy : {top5_acc:.2f} %")

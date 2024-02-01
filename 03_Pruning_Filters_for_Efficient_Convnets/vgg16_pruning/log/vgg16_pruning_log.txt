@@ -1,6 +1,6 @@
 Using cuda device
 Files already downloaded and verified
-========================================  conv{layer+1}  ========================================
+========================================  conv1  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 6 -----
 weight.shape : torch.Size([64, 3, 3, 3])
@@ -815,7 +815,7 @@ Non-trainable params: 0
 																				 [conv1] pruned rate : 95%, #pruned channels : 61
 																									 Top-1 Accuracy : 51.60 %
 																									 Top-5 Accuracy : 85.98 %
-========================================  conv{layer+1}  ========================================
+========================================  conv2  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 6 -----
 weight.shape : torch.Size([64, 64, 3, 3])
@@ -1630,7 +1630,7 @@ Non-trainable params: 0
 																				 [conv2] pruned rate : 95%, #pruned channels : 61
 																									 Top-1 Accuracy : 10.22 %
 																									 Top-5 Accuracy : 52.92 %
-========================================  conv{layer+1}  ========================================
+========================================  conv3  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 13 -----
 weight.shape : torch.Size([128, 64, 3, 3])
@@ -2528,7 +2528,7 @@ Non-trainable params: 0
 																				 [conv3] pruned rate : 95%, #pruned channels : 122
 																									 Top-1 Accuracy : 10.91 %
 																									 Top-5 Accuracy : 51.61 %
-========================================  conv{layer+1}  ========================================
+========================================  conv4  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 13 -----
 weight.shape : torch.Size([128, 128, 3, 3])
@@ -3427,7 +3427,7 @@ Non-trainable params: 0
 																				 [conv4] pruned rate : 95%, #pruned channels : 122
 																									 Top-1 Accuracy : 10.78 %
 																									 Top-5 Accuracy : 52.76 %
-========================================  conv{layer+1}  ========================================
+========================================  conv5  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 26 -----
 weight.shape : torch.Size([256, 128, 3, 3])
@@ -4459,7 +4459,7 @@ Non-trainable params: 0
 																				 [conv5] pruned rate : 95%, #pruned channels : 243
 																									 Top-1 Accuracy : 11.19 %
 																									 Top-5 Accuracy : 53.98 %
-========================================  conv{layer+1}  ========================================
+========================================  conv6  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 26 -----
 weight.shape : torch.Size([256, 256, 3, 3])
@@ -5491,7 +5491,7 @@ Non-trainable params: 0
 																				 [conv6] pruned rate : 95%, #pruned channels : 243
 																									 Top-1 Accuracy : 21.55 %
 																									 Top-5 Accuracy : 77.93 %
-========================================  conv{layer+1}  ========================================
+========================================  conv7  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 26 -----
 weight.shape : torch.Size([256, 256, 3, 3])
@@ -6523,7 +6523,7 @@ Non-trainable params: 0
 																				 [conv7] pruned rate : 95%, #pruned channels : 243
 																									 Top-1 Accuracy : 20.40 %
 																									 Top-5 Accuracy : 59.25 %
-========================================  conv{layer+1}  ========================================
+========================================  conv8  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 51 -----
 weight.shape : torch.Size([512, 256, 3, 3])
@@ -7818,7 +7818,7 @@ Non-trainable params: 0
 																				 [conv8] pruned rate : 95%, #pruned channels : 486
 																									 Top-1 Accuracy : 34.11 %
 																									 Top-5 Accuracy : 72.29 %
-========================================  conv{layer+1}  ========================================
+========================================  conv9  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 51 -----
 weight.shape : torch.Size([512, 512, 3, 3])
@@ -9113,7 +9113,7 @@ Non-trainable params: 0
 																				 [conv9] pruned rate : 95%, #pruned channels : 486
 																									 Top-1 Accuracy : 55.30 %
 																									 Top-5 Accuracy : 89.51 %
-========================================  conv{layer+1}  ========================================
+========================================  conv10  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 51 -----
 weight.shape : torch.Size([512, 512, 3, 3])
@@ -10408,7 +10408,7 @@ Non-trainable params: 0
 																				 [conv10] pruned rate : 95%, #pruned channels : 486
 																									 Top-1 Accuracy : 75.41 %
 																									 Top-5 Accuracy : 96.39 %
-========================================  conv{layer+1}  ========================================
+========================================  conv11  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 51 -----
 weight.shape : torch.Size([512, 512, 3, 3])
@@ -11703,7 +11703,7 @@ Non-trainable params: 0
 																				 [conv11] pruned rate : 95%, #pruned channels : 486
 																									 Top-1 Accuracy : 86.08 %
 																									 Top-5 Accuracy : 97.53 %
-========================================  conv{layer+1}  ========================================
+========================================  conv12  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 51 -----
 weight.shape : torch.Size([512, 512, 3, 3])
@@ -12998,7 +12998,7 @@ Non-trainable params: 0
 																				 [conv12] pruned rate : 95%, #pruned channels : 486
 																									 Top-1 Accuracy : 15.27 %
 																									 Top-5 Accuracy : 96.57 %
-========================================  conv{layer+1}  ========================================
+========================================  conv13  ========================================
 
 ----- pruned rate : 10%, #pruned channels : 51 -----
 weight.shape : torch.Size([512, 512, 3, 3])
