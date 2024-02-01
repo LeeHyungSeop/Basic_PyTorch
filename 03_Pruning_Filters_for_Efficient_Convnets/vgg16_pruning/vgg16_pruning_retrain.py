@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from architecture2 import VGG16_BN
+from architecture import VGG16_BN
 from utils import rgb_to_yuv, loadValDataset, testAccuracy, getPrunedNetwork, showNewPrunedModel, loadTrainDataset, retrainNewPrunedModel
 import torch.nn as nn
 import torch.nn.utils.prune as prune
@@ -27,7 +27,7 @@ print(f"Using {device} device")
 
 # load best model's parameter
 model = VGG16_BN()
-checkpoint = torch.load('../vgg16_baseline_exp4/checkpoint/best_model.pth')
+checkpoint = torch.load('../vgg16_baseline_exp1/checkpoint/best_model.pth')
 model.load_state_dict(checkpoint['model_state_dict'])
 model = model.to(device)
 
@@ -36,13 +36,13 @@ model = model.to(device)
 # conv1 ~ conv13까지 돌며 각각 10, 20, 30, 40, 50, 60, 70, 80, 90, 95% pruning 후 accuracy 측정
 filters_pruned_away_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 95] # (%)
 layer = 0
-val_loader = loadValDataset()
-train_loader = loadTrainDataset()
+val_loader, tesize = loadValDataset()
+train_loader, trsize = loadTrainDataset()
 top1_acc_list = {}
 top5_acc_list = {}
 
 model = VGG16_BN()
-checkpoint = torch.load('../vgg16_baseline_exp4/checkpoint/best_model.pth')
+checkpoint = torch.load('../vgg16_baseline_exp1/checkpoint/best_model.pth')
 model.load_state_dict(checkpoint['model_state_dict'])
 model = model.to(device)
 
@@ -68,13 +68,14 @@ for param in model.modules() :
             # print conv, pruned rate, #pruned channels
             print("\t"*20, f"[conv{layer+1}] pruned rate : {pruned_rate}%, #pruned channels : {num_prune_channels}")
             top1_acc, top5_acc = testAccuracy(trained_new_pruned_model, val_loader)
+            print(f"\t"*20, f"Top-1 accuracy : {top1_acc:.2f}%, Top-5 accuracy : {top5_acc:.2f}%")
             top1_acc_list[layer].append(top1_acc)
             top5_acc_list[layer].append(top5_acc)
 
         layer += 1
         
 # save accuracy using pickle
-with open('../Figure2/c/top1_acc_list.pkl', 'wb') as f :
+with open('../Figure2/c/top1_acc_list_epoch20.pkl', 'wb') as f :
     pickle.dump(top1_acc_list, f)
-with open('../Figure2/c/top5_acc_list.pkl', 'wb') as f :
-    pickle.dump(top5_acc_list, f)    
+with open('../Figure2/c/top5_acc_list_epoch20.pkl', 'wb') as f :
+    pickle.dump(top5_acc_list, f)

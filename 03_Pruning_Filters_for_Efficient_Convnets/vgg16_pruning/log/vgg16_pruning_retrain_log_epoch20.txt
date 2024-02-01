@@ -1,0 +1,33 @@
+Using cuda device
+Files already downloaded and verified
+# test datas : 10000
+Files already downloaded and verified
+# train datas : 50000
+mini batch shape : torch.Size([128, 3, 32, 32])
+========================================  conv1  ========================================
+
+----- pruned rate : 10%, #pruned channels : 6 -----
+weight.shape : torch.Size([64, 3, 3, 3])
+bias.shape : torch.Size([64])
+bn_gamma.shape : torch.Size([64])
+bn_beta.shape : torch.Size([64])
+bn_running_mean.shape : torch.Size([64])
+bn_running_var.shape : torch.Size([64])
+sorted_weight_indices : tensor([30, 24, 32, 22, 47, 41, 49, 53, 51, 56, 23,  0, 15, 57, 50,  7, 58, 36,
+         2,  4, 12, 31, 17, 16, 63, 21,  1, 33, 48,  9, 43, 13, 37, 52, 34, 27,
+        10, 62, 60, 46, 59, 39, 18, 40, 55, 29,  3,  8, 19, 54, 35, 20, 28,  6,
+        11, 44, 14, 61, 25, 38, 45,  5, 26, 42], device='cuda:0')
+saving_filter_idices : tensor([30, 24, 32, 22, 47, 41, 49, 53, 51, 56, 23,  0, 15, 57, 50,  7, 58, 36,
+         2,  4, 12, 31, 17, 16, 63, 21,  1, 33, 48,  9, 43, 13, 37, 52, 34, 27,
+        10, 62, 60, 46, 59, 39, 18, 40, 55, 29,  3,  8, 19, 54, 35, 20, 28,  6,
+        11, 44, 14, 61], device='cuda:0')
+pruned_weight.shape : torch.Size([58, 3, 3, 3])
+pruned_bias.shape : torch.Size([58])
+pruned_bn_gamma.shape : torch.Size([58])
+pruned_bn_beta.shape : torch.Size([58])
+pruned_bn_running_mean.shape : torch.Size([58])
+pruned_bn_running_var.shape : torch.Size([58])
+pruned_next_weight.shape : torch.Size([64, 58, 3, 3])
+Epoch : 001, Training loss : 0.00179
+Epoch : 002, Training loss : 0.00176
+Epoch : 003, Training loss : 0.00176

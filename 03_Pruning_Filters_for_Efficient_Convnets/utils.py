@@ -172,7 +172,8 @@ def loadTrainDataset() :
 
 def retrainNewPrunedModel(_model, _train_loader) :
     lr = 0.001
-    epochs = 40
+    # epochs = 40
+    epochs = 20
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(_model.parameters(), lr=lr, momentum=0.9, weight_decay=5e-4)
     _model = _model.to(device)
