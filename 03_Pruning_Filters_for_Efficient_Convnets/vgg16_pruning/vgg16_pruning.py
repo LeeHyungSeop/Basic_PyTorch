@@ -92,12 +92,12 @@ def getPrunedNetwork(_model, _layer, _num_prune_channels) :
     bn_beta = bn_layer.bias
     bn_running_mean = bn_layer.running_mean
     bn_running_var = bn_layer.running_var
-    print(f"weight.shape : {weight.shape}")
-    print(f"bias.shape : {bias.shape}")
-    print(f"bn_gamma.shape : {bn_gamma.shape}")
-    print(f"bn_beta.shape : {bn_beta.shape}")
-    print(f"bn_running_mean.shape : {bn_running_mean.shape}")
-    print(f"bn_running_var.shape : {bn_running_var.shape}")
+    # print(f"weight.shape : {weight.shape}")
+    # print(f"bias.shape : {bias.shape}")
+    # print(f"bn_gamma.shape : {bn_gamma.shape}")
+    # print(f"bn_beta.shape : {bn_beta.shape}")
+    # print(f"bn_running_mean.shape : {bn_running_mean.shape}")
+    # print(f"bn_running_var.shape : {bn_running_var.shape}")
     is_last_conv_layer = False
     if _layer == 12 :
         is_last_conv_layer = True    
@@ -124,12 +124,12 @@ def getPrunedNetwork(_model, _layer, _num_prune_channels) :
         weight[saving_filter_idices], bias[saving_filter_idices], \
         bn_gamma[saving_filter_idices], bn_beta[saving_filter_idices], \
         bn_running_mean[saving_filter_idices], bn_running_var[saving_filter_idices]  
-    print(f"pruned_weight.shape : {pruned_weight.shape}")
-    print(f"pruned_bias.shape : {pruned_bias.shape}")
-    print(f"pruned_bn_gamma.shape : {pruned_bn_gamma.shape}")
-    print(f"pruned_bn_beta.shape : {pruned_bn_beta.shape}")
-    print(f"pruned_bn_running_mean.shape : {pruned_bn_running_mean.shape}")
-    print(f"pruned_bn_running_var.shape : {pruned_bn_running_var.shape}")
+    # print(f"pruned_weight.shape : {pruned_weight.shape}")
+    # print(f"pruned_bias.shape : {pruned_bias.shape}")
+    # print(f"pruned_bn_gamma.shape : {pruned_bn_gamma.shape}")
+    # print(f"pruned_bn_beta.shape : {pruned_bn_beta.shape}")
+    # print(f"pruned_bn_running_mean.shape : {pruned_bn_running_mean.shape}")
+    # print(f"pruned_bn_running_var.shape : {pruned_bn_running_var.shape}")
     
     ### next fc layer에 대한 처리 (# ex. conv13 pruned (512, 512, 3, 3) to (496, 512, 3, 3)? fc1 pruned (512, 512) to (512, 496))
     ### (output channel, input channel)
@@ -170,12 +170,6 @@ layer = 0
 val_loader = loadValDataset()
 top1_acc_list = {}
 top5_acc_list = {}
-
-# load best model's parameter
-model = VGG16_BN()
-checkpoint = torch.load('../vgg16_baseline_exp4/checkpoint/best_model.pth')
-model.load_state_dict(checkpoint['model_state_dict'])
-model = model.to(device)
 
 for param in model.modules() :
     if isinstance(param, torch.nn.Conv2d) :
