@@ -1,0 +1,69 @@
+2024-02-01 15:27:45.058606: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-01 15:27:45.117412: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-02-01 15:28:04.335047: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-01 15:28:04.403007: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Using cuda device
+# of total parameters : 14991946
+# of trainable parameters : 14991946
+[ 25  50  75 100 125 150 175 200 225 250 275]
+Files already downloaded and verified
+# test datas : 10000
+Files already downloaded and verified
+# train datas : 50000
+mini batch shape : torch.Size([128, 3, 32, 32])
+# of validation batches : 79
+
+Start Training  ----------------------------------------------------------------------
+Epoch : 001 | Training loss : 1.79215 | Training acc : 37.40600%
+Epoch : 001 | Validation loss : 1.43334 | Validation acc : 48.41000%
+Best model is updated at epoch 001 with validation acc 48.41000
+----------------------------------------------------------------------
+Epoch : 002 | Training loss : 1.14175 | Training acc : 58.94000%
+Epoch : 002 | Validation loss : 1.10264 | Validation acc : 60.84000%
+Best model is updated at epoch 002 with validation acc 60.84000
+----------------------------------------------------------------------
+Epoch : 003 | Training loss : 0.86912 | Training acc : 69.38600%
+Epoch : 003 | Validation loss : 0.99837 | Validation acc : 65.10000%
+Best model is updated at epoch 003 with validation acc 65.10000
+----------------------------------------------------------------------
+Epoch : 004 | Training loss : 0.70782 | Training acc : 75.53600%
+Epoch : 004 | Validation loss : 0.86605 | Validation acc : 70.26000%
+Best model is updated at epoch 004 with validation acc 70.26000
+----------------------------------------------------------------------
+Epoch : 005 | Training loss : 0.62408 | Training acc : 78.80600%
+Epoch : 005 | Validation loss : 0.76634 | Validation acc : 74.49000%
+Best model is updated at epoch 005 with validation acc 74.49000
+----------------------------------------------------------------------
+Epoch : 006 | Training loss : 0.55938 | Training acc : 81.26200%
+Epoch : 006 | Validation loss : 0.81321 | Validation acc : 72.79000%
+----------------------------------------------------------------------
+Epoch : 007 | Training loss : 0.52830 | Training acc : 82.30400%
+Epoch : 007 | Validation loss : 0.77449 | Validation acc : 74.87000%
+Best model is updated at epoch 007 with validation acc 74.87000
+----------------------------------------------------------------------
+Epoch : 008 | Training loss : 0.50100 | Training acc : 83.23000%
+Epoch : 008 | Validation loss : 0.90455 | Validation acc : 71.15000%
+----------------------------------------------------------------------
+Epoch : 009 | Training loss : 0.47138 | Training acc : 84.25800%
+Epoch : 009 | Validation loss : 0.90277 | Validation acc : 71.30000%
+----------------------------------------------------------------------
+Epoch : 010 | Training loss : 0.46073 | Training acc : 84.62200%
+Epoch : 010 | Validation loss : 0.71904 | Validation acc : 77.15000%
+Best model is updated at epoch 010 with validation acc 77.15000
+----------------------------------------------------------------------
+Epoch : 011 | Training loss : 0.43464 | Training acc : 85.67400%
+Epoch : 011 | Validation loss : 0.70539 | Validation acc : 77.24000%
+Best model is updated at epoch 011 with validation acc 77.24000
+----------------------------------------------------------------------
+Epoch : 012 | Training loss : 0.43245 | Training acc : 85.61200%
+Epoch : 012 | Validation loss : 1.11885 | Validation acc : 66.09000%
+----------------------------------------------------------------------
+Epoch : 013 | Training loss : 0.41718 | Training acc : 86.40000%
+Epoch : 013 | Validation loss : 0.78747 | Validation acc : 76.70000%
+----------------------------------------------------------------------
+Epoch : 014 | Training loss : 0.41063 | Training acc : 86.45000%
+Epoch : 014 | Validation loss : 0.64467 | Validation acc : 78.41000%
+Best model is updated at epoch 014 with validation acc 78.41000
+----------------------------------------------------------------------

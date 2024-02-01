@@ -38,6 +38,7 @@ def loadValDataset() :
     return val_loader, tesize
 
 def testAccuracy(_new_pruned_model, _val_loader) :
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     top1_correct = 0
     top1_total = 0
     top1_acc = 0.0
@@ -45,7 +46,7 @@ def testAccuracy(_new_pruned_model, _val_loader) :
     top5_total = 0
     top5_acc = 0.0
     
-    _new_pruned_model.eval()
+    _new_pruned_model.eval().to(device)
     with torch.no_grad():
         for data in _val_loader:
             images, labels = data[0].to(device), data[1].to(device)
@@ -60,8 +61,6 @@ def testAccuracy(_new_pruned_model, _val_loader) :
             
     top1_acc = 100 * top1_correct / top1_total
     top5_acc = 100 * top5_correct / top5_total
-    print("\t"*25 , f"Top-1 Accuracy : {top1_acc:.2f} %")
-    print("\t"*25 ,  f"Top-5 Accuracy : {top5_acc:.2f} %")
     
     return top1_acc, top5_acc
 

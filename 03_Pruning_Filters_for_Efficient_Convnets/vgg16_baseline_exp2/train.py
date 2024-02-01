@@ -49,11 +49,10 @@ epochs = 300
 criterion = nn.CrossEntropyLoss() # [lua code] : criterion = cast(nn.CrossEntropyCriterion())
 # https://github.com/torch/optim/blob/master/sgd.lua
 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=momentum, weight_decay=weight_decay)
-lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=np.arange(epoch_step, epochs, epoch_step), gamma=0.5, verbose=True)
 print(np.arange(epoch_step, epochs, epoch_step))
 
 # Training
-writer = SummaryWriter('../runs/vgg16_baseline_exp1')
+writer = SummaryWriter('../runs/vgg16_baseline_exp2')
 input_tensor = torch.Tensor(128, 3, 32, 32).to(device)
 writer.add_graph(model, input_tensor)
 
@@ -79,6 +78,9 @@ val_loss_list = []
 
 print("\nStart Training ", "-"*70)
 for epoch in range(1, epochs+1) :
+    if epoch % epoch_step == 0 :
+        optimizer.param_groups[0]['lr'] /= 2
+        print(f"Learning rate is decayed : {optimizer.param_groups[0]['lr']:.5f}")
     train_loss = 0.0
     train_acc = 0.0
     # training
@@ -125,7 +127,6 @@ for epoch in range(1, epochs+1) :
     writer.add_scalar('validation acc', val_acc, epoch)
     writer.add_scalar('learning rate', optimizer.param_groups[0]['lr'], epoch)
     print(f"Epoch : {epoch:03d} | Validation loss : {val_loss:.5f} | Validation acc : {val_acc:.5f}%")
-    lr_scheduler.step()
     
     # save model
     ## best model
