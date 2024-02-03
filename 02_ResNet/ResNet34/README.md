@@ -5,7 +5,6 @@
 pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확인하고자 함.
    * 또한 추후에 직접 구현할 resnet이 pytorch에서 구현한 resnet과 동일한 성능을 낼 수 있는지 test할 수도 있음.
    * 논문에서 learning rate를 plateau일 때, 10씩 divide했다고 하여 lr_scheduler를 다음과 같이 설정.
-      * 
       ``` py
       lr_scheduler = lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=5, verbose=True)
       ```
