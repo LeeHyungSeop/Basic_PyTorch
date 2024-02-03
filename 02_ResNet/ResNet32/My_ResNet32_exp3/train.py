@@ -95,32 +95,32 @@ for epoch in range(1, epochs+1):
 
     # save best model
     if val_acc_list[-1] == max(val_acc_list):
-        torch.save(model.state_dict(), './My_ResNet32_ReLU_BN_exp1_checkpoint/best_model.pth')
+        torch.save(model.state_dict(), './checkpoint/best_model.pth')
     # every 5 epochs, save the model to resume training
     if epoch % 5 == 0:
         torch.save({
             'epoch': epoch,
             'model_state_dict': model.state_dict(),
             'optimizer_state_dict': optimizer.state_dict(),
-        }, f"./My_ResNet32_ReLU_BN_exp1_checkpoint/epoch_{epoch}.pth")
+        }, f"./checkpoint/epoch_{epoch}.pth")
 
 # save the log using pickle
-with open('./My_ResNet32_ReLU_BN_exp1_checkpoint/train_loss_list.pkl', 'wb') as f:
+with open('./log/train_loss_list.pkl', 'wb') as f:
     pickle.dump(train_loss_list, f)
-with open('./My_ResNet32_ReLU_BN_exp1_checkpoint/train_acc_list.pkl', 'wb') as f:
+with open('./log/train_acc_list.pkl', 'wb') as f:
     pickle.dump(train_acc_list, f)        
-with open('./My_ResNet32_ReLU_BN_exp1_checkpoint/val_loss_list.pkl', 'wb') as f:
+with open('./log/val_loss_list.pkl', 'wb') as f:
     pickle.dump(val_loss_list, f)
-with open('./My_ResNet32_ReLU_BN_exp1_checkpoint/val_acc_list.pkl', 'wb') as f:
+with open('./log/val_acc_list.pkl', 'wb') as f:
     pickle.dump(val_acc_list, f)
         
 # test the best model
-checkpoint = torch.load('./My_ResNet32_ReLU_BN_exp1_checkpoint/best_model.pth')
+checkpoint = torch.load('./checkpoint/best_model.pth')
 model.load_state_dict(checkpoint)
 top1_acc, top5_acc = testAccuracy(model, test_loader)
 print(f"Top-1 accuracy : {top1_acc:.2f}%, Top-5 accuracy : {top5_acc:.2f}%")
 # save the accuracy using pickle
-with open('./My_ResNet32_ReLU_BN_exp1_checkpoint/top1_acc.pkl', 'wb') as f:
+with open('./log/top1_acc.pkl', 'wb') as f:
     pickle.dump(top1_acc, f)
-with open('./My_ResNet32_ReLU_BN_exp1_checkpoint/top5_acc.pkl', 'wb') as f:
+with open('./log/top5_acc.pkl', 'wb') as f:
     pickle.dump(top5_acc, f)
