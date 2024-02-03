@@ -27,7 +27,7 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
       * exp0-3에서 오히려 val_acc가 계속 낮아졌음. 
       (나중에 preprocessing할 때, 부적절한 RandomResizedCrop()을 사용했기 때문임을 알아냈음.)
       (하지만 당시에는 preprocessing에 문제를 알아내지 못하여, pytorch resnet sample code에서 사용했던 preprocessing 방법을 그대로 사용해봄.)
-      ![Alt text](./images/./images/image.png)
+      ![Alt text](./images/image.png)
       * exp0-1 ~ exp0-3 중에서는 가장 좋은 성능(73.016%)을 보였지만, 여전히 논문의 val_acc(75.28%)과 동일한 수치가 나오지는 못했다.
    > 이외에도 여러 실험들을 해봤지만 논문의 10-crop val_acc인 75.28%에 도달하지 못하여 architecture(basic residual block)의 문제인지 의심이 되었음.<br>
    그래서 dataset이 훨씬 작은 [../ResNet32 on CIFAR-10](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/tree/main/02_ResNet/ResNet32)에 대해서 architecture 문제인지 아닌지 판단하려고 함.<br><br>
