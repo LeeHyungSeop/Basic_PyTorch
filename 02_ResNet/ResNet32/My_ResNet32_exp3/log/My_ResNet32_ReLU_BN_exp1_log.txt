@@ -1,0 +1,9 @@
+device: cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+num_iters at 1 epoch: 352
+34k iteration : 250 epochs
+48k iteration : 375 epochs
+64k iteration : 500 epochs
+Adjusting learning rate of group 0 to 1.0000e-01.
+Epoch [1/500]

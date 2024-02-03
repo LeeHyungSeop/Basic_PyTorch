@@ -60,7 +60,7 @@ def kaimingHeInitialization(m) :
     elif type(m) == nn.BatchNorm2d:
         m.weight.data.fill_(1)
 
-def testAccuracy(_new_pruned_model, _val_loader) :
+def testAccuracy(_model, _val_loader) :
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     top1_correct = 0
     top1_total = 0
@@ -69,11 +69,11 @@ def testAccuracy(_new_pruned_model, _val_loader) :
     top5_total = 0
     top5_acc = 0.0
     
-    _new_pruned_model.eval().to(device)
+    _model.eval().to(device)
     with torch.no_grad():
         for data in _val_loader:
             images, labels = data[0].to(device), data[1].to(device)
-            outputs = _new_pruned_model(images)
+            outputs = _model(images)
             _, predicted = torch.max(outputs.data, 1)
             
             top1_total += labels.size(0)
