@@ -5,4 +5,3 @@ github_access_token
 /01_PyTorch_Official/hymenoptera_data
 /03_Pruning_Filters_for_Efficient_Convnets/cifar.torch
 *.pth
-image*
