@@ -20,7 +20,8 @@ model = MyResNet32_ReLU_BN()
 model = model.to(device)
 model.apply(kaimingHeInitialization)
 
-# hyperparameters
+# hyper parameters
+## learning rate
 lr = 0.1
 ## momentum
 momentum = 0.9
@@ -29,19 +30,19 @@ L2 = 0.0001
 # the number of iterations at 1 epoch
 num_iters = (len(trainset) // mini_batch_size) + 1
 print(f"num_iters at 1 epoch: {num_iters}")
-
-epochs = 64000 // mini_batch_size
+epochs = 64000 // num_iters
 # 32k, 48k iter = ?, ? epochs
-print(f"34k iteration : {32000 // mini_batch_size} epochs")
-print(f"48k iteration : {48000 // mini_batch_size} epochs")
+print(f"32k iteration : {32000 // num_iters} epochs")
+print(f"48k iteration : {48000 // num_iters} epochs")
 print(f"64k iteration : {epochs} epochs")
-
 ## optimizer
 ## scheduler
 ## loss function
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(model.parameters(), lr=lr, momentum=momentum, weight_decay=L2)        
-lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=[125, 187], gamma=0.1, verbose=True)
+
+# 125 epoch, 187 epoch lr decay
+lr_decay = lr_scheduler.MultiStepLR(optimizer, milestones=[90, 136], gamma=0.1, verbose=True)
 
 # train
 train_loss_list = []
@@ -67,9 +68,10 @@ for epoch in range(1, epochs+1):
         train_total += labels.size(0)
         train_correct += predicted.eq(labels).sum().item()
         
-    lr_scheduler.step()
-    train_loss_list.append(train_loss / num_iters)
-    train_acc_list.append(100 * train_correct / train_total)
+    train_loss = train_loss / len(train_loader)
+    train_loss_list.append(train_loss)
+    train_acc = 100 * train_correct / train_total
+    train_acc_list.append(train_acc)
     
     model.eval().to(device)
     val_loss = 0.0
@@ -86,8 +88,11 @@ for epoch in range(1, epochs+1):
             val_total += labels.size(0)
             val_correct += predicted.eq(labels).sum().item()
             
-    val_loss_list.append(val_loss / len(val_loader))
-    val_acc_list.append(100 * val_correct / val_total)
+    val_loss = val_loss / len(val_loader)
+    val_loss_list.append(val_loss)
+    val_acc = 100 * val_correct / val_total
+    val_acc_list.append(val_acc)
+    lr_decay.step()
     
     print(f"Train Loss: {train_loss_list[-1]:.4f} | Train Acc: {train_acc_list[-1]:.4f}")
     print(f"Val Loss: {val_loss_list[-1]:.4f} | Val Acc: {val_acc_list[-1]:.4f}")
@@ -96,13 +101,6 @@ for epoch in range(1, epochs+1):
     # save best model
     if val_acc_list[-1] == max(val_acc_list):
         torch.save(model.state_dict(), './checkpoint/best_model.pth')
-    # every 5 epochs, save the model to resume training
-    if epoch % 5 == 0:
-        torch.save({
-            'epoch': epoch,
-            'model_state_dict': model.state_dict(),
-            'optimizer_state_dict': optimizer.state_dict(),
-        }, f"./checkpoint/epoch_{epoch}.pth")
 
 # save the log using pickle
 with open('./log/train_loss_list.pkl', 'wb') as f:

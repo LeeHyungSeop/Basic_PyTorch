@@ -1,6 +1,14 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 
+class LambdaLayer(nn.Module):
+    def __init__(self, lambd):
+        super(LambdaLayer, self).__init__()
+        self.lambd = lambd
+
+    def forward(self, x):
+        return self.lambd(x)
 class BuildingBlock(nn.Module) :
     def __init__(self, in_channels, out_channels) :
         super().__init__()
@@ -48,10 +56,10 @@ class BuildingBlockWithDownSample(nn.Module) :
         self.bn2 = nn.BatchNorm2d(out_channels, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
         self.relu2 = nn.ReLU(inplace=True)
         
-        # (projection shortcut) : H, W of activation map are down_sampled, C of activation map is up_sampled
+        # option A : identity mapping with zero-padding
+        # 참고 : https://github.com/akamaster/pytorch_resnet_cifar10/blob/master/resnet.py
         self.downsample = nn.Sequential(
-            nn.Conv2d(in_channels, out_channels, kernel_size=self.down_sampling_kernel_size, stride=self.conv1_stride, padding=0, bias=False),
-            nn.BatchNorm2d(out_channels, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True),
+            LambdaLayer(lambda x: F.pad(x[:, :, ::2, ::2], (0, 0, 0, 0, self.in_channels // 2, self.in_channels // 2), "constant", 0)),
         )
     
     def forward(self, x) : 
