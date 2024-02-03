@@ -27,7 +27,7 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
       * exp0-3에서 오히려 val_acc가 계속 낮아졌음. 
       (나중에 preprocessing할 때, 부적절한 RandomResizedCrop()을 사용했기 때문임을 알아냈음.)
       (하지만 당시에는 preprocessing에 문제를 알아내지 못하여, pytorch resnet sample code에서 사용했던 preprocessing 방법을 그대로 사용해봄.)
-      ![Alt text](image.png)
+      ![Alt text](./images/./images/image.png)
       * exp0-1 ~ exp0-3 중에서는 가장 좋은 성능(73.016%)을 보였지만, 여전히 논문의 val_acc(75.28%)과 동일한 수치가 나오지는 못했다.
    > 이외에도 여러 실험들을 해봤지만 논문의 10-crop val_acc인 75.28%에 도달하지 못하여 architecture(basic residual block)의 문제인지 의심이 되었음.<br>
    그래서 dataset이 훨씬 작은 [../ResNet32 on CIFAR-10](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/tree/main/02_ResNet/ResNet32)에 대해서 architecture 문제인지 아닌지 판단하려고 함.<br><br>
@@ -40,7 +40,7 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
      exp0-4와 preprocessing, hyper parameter를 모두 동일하게 설정하고,<br>
      **단, torch의 model.resnet34()가 아닌 직접 구현한 resnet34()로 training 진행.**
    * 당연히 exp1/은 exp0-4와는 직접 구현한 resnet34()를 사용한 것 빼고는 모두 같은 조건에서 training했으므로 동일한 graph가 그려짐.
-   ![Alt text](image-1.png)
+   ![Alt text](./images/image-1.png)
 
 ---
 2. `exp2/`
@@ -49,7 +49,7 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
    * [../ResNet32 on CIFAR-10](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/tree/main/02_ResNet/ResNet32)을 진행하면서, 논문에 있는 figure 4.를 유심히 봤었는데<br>
    논문에서 글로는 plateau일 때마다 learning rate를 10씩 divide해줬다고 되어있지만,<br>
    figure 4.에서는 30, 60, 90 epoch마다 10씩 divide해준 것으로 추측할 수 있다.
-   ![Alt text](image-2.png)
+   ![Alt text](./images/image-2.png)
    그래서 lr_scheduler를 다음과 같이 수정.
       ```py
       lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=[30, 60, 90], gamma=0.1, verbose=True)
