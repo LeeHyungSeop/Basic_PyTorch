@@ -54,6 +54,7 @@ for epoch in range(1, epochs+1):
     train_loss = 0.0
     train_correct = 0
     train_total = 0
+    train_acc = 0
     print(f"Epoch [{epoch}/{epochs}]")
     for i, (inputs, labels) in enumerate(train_loader, 0):
         inputs, labels = inputs.to(device), labels.to(device)
@@ -77,6 +78,7 @@ for epoch in range(1, epochs+1):
     val_loss = 0.0
     val_correct = 0
     val_total = 0
+    val_acc = 0
     with torch.no_grad():
         for i, (inputs, labels) in enumerate(val_loader, 0):
             inputs, labels = inputs.to(device), labels.to(device)
@@ -94,13 +96,13 @@ for epoch in range(1, epochs+1):
     val_acc_list.append(val_acc)
     lr_decay.step()
     
-    print(f"Train Loss: {train_loss_list[-1]:.4f} | Train Acc: {train_acc_list[-1]:.4f}")
-    print(f"Val Loss: {val_loss_list[-1]:.4f} | Val Acc: {val_acc_list[-1]:.4f}")
-    print()
-
+    print(f"Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}")
+    print(f"Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}")
     # save best model
-    if val_acc_list[-1] == max(val_acc_list):
+    if val_acc == max(val_acc_list):
         torch.save(model.state_dict(), './checkpoint/best_model.pth')
+        print(f"Best model is saved at {epoch} epoch. Val Acc: {val_acc:.4f}")
+    print()
 
 # save the log using pickle
 with open('./log/train_loss_list.pkl', 'wb') as f:
