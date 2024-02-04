@@ -331,7 +331,7 @@ for epoch in range(0, epochs):
     # save best model for inference
     if val_acc_list[-1] == max(val_acc_list):
         torch.save(model.state_dict(), f"./My_ResNet34_exp4_Checkpoint/best_model.pth")
-        print("Best model is saved. val acc : {val_acc_list[-1]}")
+        print(f"Best model is saved. val acc : {val_acc_list[-1]}")
             
     # every 5th epoch, save model to resume training
     if (epoch+1) % 5 == 0:

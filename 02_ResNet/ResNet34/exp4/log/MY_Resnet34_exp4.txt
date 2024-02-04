@@ -181,3 +181,14 @@ Adjusting learning rate of group 0 to 1.0000e-01.
 # of trainable parameters : 21797672
 Current Time : 2024-02-04 16:47:36.005104
 1 / 120 epoch ----------------------------------------
+[1, 1000th iteration] loss : 6.410028820991516
+[1, 2000th iteration] loss : 5.456385781764984
+[1, 3000th iteration] loss : 4.8436528182029726
+[1, 4000th iteration] loss : 4.354230517148972
+[1, 5000th iteration] loss : 4.000521824359894
+val loss : 3.938979881150382
+val acc : 20.542
+Adjusting learning rate of group 0 to 1.0000e-01.
+Best model is saved. val acc : {val_acc_list[-1]}
+Current Time : 2024-02-04 17:14:13.589229
+2 / 120 epoch ----------------------------------------
