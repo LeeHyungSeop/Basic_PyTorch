@@ -77,3 +77,10 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
       ```
    * 10-Crop Top1 Acc : 75.114% (Paper : 75.47%)
    * 10-Crop Top5 Acc : 92.362% (Paper : 92.54%)
+
+---
+4. `exp4/`
+   * exp3/과 모두 똑같은 조건에서, best model 저장 기준만 수정. <br>
+   minimum valdiation loss model이 아닌, **maximum validation accuracy model을 저장.**
+   * 10-Crop Top1 Acc : (training now)% (Paper : 75.47%)
+   * 10-Crop Top5 Acc : (training now)% (Paper : 92.54%)
