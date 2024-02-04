@@ -13,11 +13,13 @@
 --- 
 * `Figure2/`
   * [(a) : Filters are raneked by $s_j$](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/blob/main/03_Pruning_Filters_for_Efficient_Convnets/Figure2/a.png)
-  ![Alt text](./Figure2/a.png)
+    ![Alt text](./Figure2/a.png)
+  
   * [(b) : Prune the smallest filters](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/blob/main/03_Pruning_Filters_for_Efficient_Convnets/Figure2/b/top1_acc.png)
-  ![Alt text](./Figure2/b/top1_acc.png)
+    ![Alt text](./Figure2/b/top1_acc.png)
+  
   * [(c) : Pruned and retrain](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/blob/main/03_Pruning_Filters_for_Efficient_Convnets/Figure2/c/top1_acc_epoch20.png)
-  ![Alt text](./Figure2/c/top1_acc_epoch20.png)
+    ![Alt text](./Figure2/c/top1_acc_epoch20.png)
 ---
 * `vgg16_prune_A/`
 * `vgg16_prune_A_scratch/` 
