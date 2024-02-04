@@ -192,3 +192,14 @@ Adjusting learning rate of group 0 to 1.0000e-01.
 Best model is saved. val acc : {val_acc_list[-1]}
 Current Time : 2024-02-04 17:14:13.589229
 2 / 120 epoch ----------------------------------------
+[2, 1000th iteration] loss : 3.6981819286346433
+[2, 2000th iteration] loss : 3.484263483285904
+[2, 3000th iteration] loss : 3.3154802083969117
+[2, 4000th iteration] loss : 3.192848578929901
+[2, 5000th iteration] loss : 3.0746164598464967
+val loss : 2.9494912454060147
+val acc : 35.468
+Adjusting learning rate of group 0 to 1.0000e-01.
+Best model is saved. val acc : {val_acc_list[-1]}
+Current Time : 2024-02-04 17:40:50.417081
+3 / 120 epoch ----------------------------------------
