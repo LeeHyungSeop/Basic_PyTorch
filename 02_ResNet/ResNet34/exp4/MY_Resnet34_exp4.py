@@ -27,20 +27,31 @@ import PIL
 import random
 import json
 import datetime
+import numpy as np
 
 # Load ImageNet
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
-## make squre size image with shorter side randomly sampled in [256, 480]
-def shorter_side_resize(img):
-    w, h = img.size
-    if w < h:
-        new_w = torch.randint(256, 480, (1,)).item()
-        new_h = int(new_w)
-    else:
-        new_h = torch.randint(256, 480, (1,)).item()
-        new_w = int(new_h)
-    return transforms.Resize((new_h, new_w))(img)
+## make shorter side of image to [256, 480] for scale augmentation
+## make shorter side of image to [256, 480] for scale augmentation
+def shorter_side_resize(img) :
+    width, height = img.size
+    # resized하고 나서도, 한 면이 224보다 작으면 randomcrop(224)를 할 수 없으니
+    if width < 224 and height < 224 :
+        if width < height :
+            width = 224
+            height = round(height*(224/width))
+            img = transforms.Resize((height, width))(img)
+        else :
+            width = round(width*(224/height))
+            height = 224
+            img = transforms.Resize((height, width))(img)
+    random = np.random.randint(256, 480)
+
+    if width < height :
+        return transforms.Resize((height, random))(img) # Resize((h, w))
+    else :
+        return transforms.Resize((random, width))(img) # Resize((h, w))
 
 trainset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/train', 
@@ -49,14 +60,14 @@ trainset = torchvision.datasets.ImageFolder(
         transforms.RandomCrop(224),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
-        normalize,
     ])   
 )
+
 valset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/val',
     transform=transforms.Compose([
-        transforms.Resize(size=256),
-        # transforms.Resize(size=(256 + 480) // 2),
+        # transforms.Resize(size=256),
+        transforms.Resize(size=(256 + 480) // 2),
         transforms.CenterCrop(size=224),
         transforms.ToTensor(),
         normalize,
@@ -100,7 +111,7 @@ class_names = [class_index[str(i)][1] for i in range(num_classes)]
 print(f"0th class : {class_names[0]}")
 print(f"999th class : {class_names[-1]}")
 
-writer = SummaryWriter('../runs/my_resnet34_exp4')
+writer = SummaryWriter('../../runs/my_resnet34_exp4')
 class BuildingBlock(nn.Module) :
     def __init__(self, in_channels, out_channels) :
         super().__init__()
