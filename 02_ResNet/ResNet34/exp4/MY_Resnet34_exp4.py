@@ -305,7 +305,7 @@ for epoch in range(0, epochs):
         # every 1,000 iteration
         running_loss += loss.item()
         if i % 1000 == 999:
-            print(f"[{epoch+1}, {i+1}th iteration] loss : {running_loss / 1000}")
+            print(f"[{epoch+1}, {i+1}th iteration] loss : {running_loss / 1000}", flush=True)
             writer.add_scalar('training loss', running_loss / 1000, epoch * num_iters + i)
             running_loss = 0.0
             
@@ -328,21 +328,23 @@ for epoch in range(0, epochs):
             _, predicted = outputs.max(1)
             total += labels.size(0)
             correct += predicted.eq(labels).sum().item()
-    print(f"val loss : {val_loss / num_val_batch}")
-    print(f"val acc : {100. * correct / total}")
-    writer.add_scalar('validation loss', val_loss / num_val_batch, epoch+1)
-    writer.add_scalar('validation acc', 100. * correct / total, epoch+1)
+    val_loss = val_loss / num_val_batch
+    val_acc = 100. * correct / total
+    print(f"val loss : {val_loss}")
+    print(f"val acc : {val_acc}")
+    writer.add_scalar('validation loss', val_loss, epoch+1)
+    writer.add_scalar('validation acc', val_acc, epoch+1)
     writer.flush()
     
     lr_scheduler.step()
     writer.add_scalar('learning rate', optimizer.param_groups[0]['lr'], epoch+1)
-    val_loss_list.append(val_loss / num_val_batch)
-    val_acc_list.append(100. * correct / total)
+    val_loss_list.append(val_loss)
+    val_acc_list.append(val_acc)
     
     # save best model for inference
-    if val_acc_list[-1] == max(val_acc_list):
+    if val_acc_list[-1] == val_acc :
         torch.save(model.state_dict(), f"./My_ResNet34_exp4_Checkpoint/best_model.pth")
-        print(f"Best model is saved. val acc : {val_acc_list[-1]}")
+        print(f"Best model is saved. val acc : {val_acc}%")
             
     # every 5th epoch, save model to resume training
     if (epoch+1) % 5 == 0:
