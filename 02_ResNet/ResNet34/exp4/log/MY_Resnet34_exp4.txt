@@ -1,6 +1,6 @@
-2024-02-05 18:42:30.464216: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+2024-02-05 22:50:01.108605: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-02-05 18:42:30.574737: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-02-05 22:50:01.162683: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 mini_batch_size : 256
 # threads : 8
 # train examples : 1281167
@@ -179,8 +179,5 @@ total num_iters: 600600
 Adjusting learning rate of group 0 to 1.0000e-01.
 # of total parameters : 21797672
 # of trainable parameters : 21797672
-Current Time : 2024-02-05 18:42:43.208519
+Current Time : 2024-02-05 22:50:11.656916
 1 / 120 epoch ----------------------------------------
-[1, 1000th iteration] loss : 6.4931422786712645
-[1, 2000th iteration] loss : 5.62080766248703
-[1, 3000th iteration] loss : 5.087970091342926

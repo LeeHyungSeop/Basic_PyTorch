@@ -33,41 +33,71 @@ import numpy as np
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
 ## make shorter side of image to [256, 480] for scale augmentation
-## make shorter side of image to [256, 480] for scale augmentation
-def shorter_side_resize(img) :
-    width, height = img.size
+def shorter_side_resize_train(img) :
+    width, height = img.size  
+    # print(f"before : {img.size}")
     # resized하고 나서도, 한 면이 224보다 작으면 randomcrop(224)를 할 수 없으니
+    new_height, new_width = height, width
     if width < 224 and height < 224 :
-        if width < height :
-            width = 224
-            height = round(height*(224/width))
-            img = transforms.Resize((height, width))(img)
+        if height < width :
+            new_height = 224
+            new_width = round(width * (224 / height))
+            transforms.Resize((new_height, new_width))(img)
         else :
-            width = round(width*(224/height))
-            height = 224
-            img = transforms.Resize((height, width))(img)
+            new_height = round(height * (224 / width))
+            new_width = 224
+            transforms.Resize((new_height, new_width))(img)
+        # print(f"after 1 : {(new_height, new_width)}")
+    
     random = np.random.randint(256, 480)
-
-    if width < height :
-        return transforms.Resize((height, random))(img) # Resize((h, w))
+    # print(f"random : {random}")
+    if height < width :
+        # print(f"after 2 : {(random, new_width)}")
+        return transforms.Resize((random, new_width))(img)
     else :
-        return transforms.Resize((random, width))(img) # Resize((h, w))
+        # print(f"after 2 : {(new_height, random)}")
+        return transforms.Resize((new_height, random))(img)
+    
+def shorter_side_resize_val(img) :
+    width, height = img.size  
+    # print(f"before : {img.size}")
+    # resized하고 나서도, 한 면이 224보다 작으면 randomcrop(224)를 할 수 없으니
+    new_height, new_width = height, width
+    if width < 224 and height < 224 :
+        if height < width :
+            new_height = 224
+            new_width = round(width * (224 / height))
+            transforms.Resize((new_height, new_width))(img)
+        else :
+            new_height = round(height * (224 / width))
+            new_width = 224
+            transforms.Resize((new_height, new_width))(img)
+        # print(f"after 1 : {(new_height, new_width)}")
+    
+    test_Q = 368 # (256 + 480) / 2
+    if height < width :
+        # print(f"after 2 : {(test_Q, new_width)}")
+        return transforms.Resize((test_Q, new_width))(img)
+    else :
+        # print(f"after 2 : {(new_height, test_Q)}")
+        return transforms.Resize((new_height, test_Q))(img)
 
 trainset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/train', 
     transform = transforms.Compose([   
-        shorter_side_resize,
+        shorter_side_resize_train,
         transforms.RandomCrop(224),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
+        normalize
     ])   
 )
-
 valset = torchvision.datasets.ImageFolder(
     root='/home/hslee/Desktop/Datasets/ILSVRC2012_ImageNet/val',
     transform=transforms.Compose([
         # transforms.Resize(size=256),
-        transforms.Resize(size=(256 + 480) // 2),
+        # transforms.Resize(size=(256 + 480) // 2),
+        shorter_side_resize_val,
         transforms.CenterCrop(size=224),
         transforms.ToTensor(),
         normalize,
@@ -342,7 +372,7 @@ for epoch in range(0, epochs):
     val_acc_list.append(val_acc)
     
     # save best model for inference
-    if val_acc_list[-1] == val_acc :
+    if max(val_acc_list) == val_acc :
         torch.save(model.state_dict(), f"./My_ResNet34_exp4_Checkpoint/best_model.pth")
         print(f"Best model is saved. val acc : {val_acc}%")
             
