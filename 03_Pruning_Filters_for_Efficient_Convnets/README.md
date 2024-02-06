@@ -3,14 +3,14 @@
 * `cifar.torch/` 
   * VGG-16 on CIFAR-10 implemented by Zagoruyko(2015)
 ---
-* `vgg16_baseline_exp1/`
+* `00_vgg16_baseline_exp1/`
   * `cifar.torch/`를 참고하여 vgg16 baseline model을 개발.
     * cifar.torch Top-1 accuracy : 92.45%
     * my model Top-1 accuracy : 91.86%
     * my model #params : 14.9919M
     * my model #FLOPs : 314.696M
  ---
-* `vgg16_prune_and_retrain/` 
+* `00_vgg16_prune_and_retrain/` 
   * `vgg16_baseline_exp1/`에서 구한 baseline model을 이용하여 `Figure2/` visualization을 하기 위한 code 개발.
 --- 
 * `Figure2/`
@@ -23,19 +23,22 @@
   * [(c) : Pruned and retrain](https://github.com/LeeHyungSeop/EAI_Basic_PyTorch/blob/main/03_Pruning_Filters_for_Efficient_Convnets/Figure2/c/top1_acc_epoch20.png)
     ![Alt text](./Figure2/c/top1_acc_epoch20.png)
 ---
-* `vgg16_prune_A/`
-* `vgg16_prune_A_scratch/` 
+* `01_vgg16_prune_A/`
+* `02_vgg16_prune_A_scratch/` 
   * Table 1의 VGG-16 Model 결과를 확인하기 위한 code 개발.
   ![Alt text](./images/image.png)
-    * VGG-16 : vgg16_baseline_exp1/ 에서 개발.
+
+---
+* `result.ipynb`
+    * **VGG-16** : vgg16_baseline_exp1/ 에서 개발.
       * Top-1 accuracy : 91.86%
-      * #Params : 14.9919M
       * #FLOPs : 314.696M
-    * VGG-16-pruned-A : vgg16_prune_A/ 에서 개발.
+      * #Params : 14.9919M
+    * **VGG-16-pruned-A** : vgg16_prune_A/ 에서 개발.
       * Top-1 accuracy : 91.53% (-0.33)
-      * #Params : 5.3996M
-      * #FLOPs : 207.314M 
-    * VGG-16-pruned scratch-train : vgg16_prune_A_scratch/ 에서 개발
+      * #FLOPs : 207.314M (Pruned = $$)
+      * #Params : 5.3996M (Pruned 34.2 %)
+    * **VGG-16-pruned scratch-train** : vgg16_prune_A_scratch/ 에서 개발
       * Top-1 accuracy : 91.86%
-      * #Params : 5.3996M
       * #FLOPs : 207.314M
+      * #Params : 5.3996M
