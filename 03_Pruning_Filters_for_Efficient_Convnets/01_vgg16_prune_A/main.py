@@ -64,6 +64,7 @@ for param in model.modules() :
             print(f"\t"*20, f"Top-1 accuracy : {top1_acc:.2f}%, Top-5 accuracy : {top5_acc:.2f}%")
             top1_acc_list[layer].append(top1_acc)
             top5_acc_list[layer].append(top5_acc)
+
         layer += 1
         
 # save accuracy using pickle
