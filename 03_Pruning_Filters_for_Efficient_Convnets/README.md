@@ -34,11 +34,15 @@
       * Top-1 accuracy : 91.86%
       * #FLOPs : 314.696M
       * #Params : 14.9919M
+       
     * **VGG-16-pruned-A** : vgg16_prune_A/ 에서 개발.
       * Top-1 accuracy : 91.53% (-0.33)
-      * #FLOPs : 207.314M (Pruned = $$)
-      * #Params : 5.3996M (Pruned 34.2 %)
-    * **VGG-16-pruned scratch-train** : vgg16_prune_A_scratch/ 에서 개발
-      * Top-1 accuracy : 91.86%
+      * #FLOPs : 207.314M (Pruned : 34.12%)
+      ![Alt text](./images/Pruned_FLOPs.png)
+      * #Params : 5.3996M (Pruned : 64.0%)
+      ![Alt text](./images/Pruned_Params.png)
+      
+    * **VGG-16-pruned-A-scratch-train** : vgg16_prune_A_scratch/ 에서 개발
+      * Top-1 accuracy : ?%
       * #FLOPs : 207.314M
       * #Params : 5.3996M
