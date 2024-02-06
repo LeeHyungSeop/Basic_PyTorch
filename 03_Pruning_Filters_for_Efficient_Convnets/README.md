@@ -43,6 +43,6 @@
       ![Alt text](./images/Pruned_Params.png)
       
     * **VGG-16-pruned-A-scratch-train** : vgg16_prune_A_scratch/ 에서 개발
-      * Top-1 accuracy : ?%
+      * Top-1 accuracy : 91.59% (-0.27)
       * #FLOPs : 207.314M
       * #Params : 5.3996M

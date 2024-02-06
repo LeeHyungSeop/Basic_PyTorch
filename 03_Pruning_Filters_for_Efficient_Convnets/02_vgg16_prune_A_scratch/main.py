@@ -146,8 +146,9 @@ with open('./checkpoint/val_acc_list.pkl', 'wb') as f :
 with open('./checkpoint/val_loss_list.pkl', 'wb') as f :
     pickle.dump(val_loss_list, f)
     
+model = VGG16_BN_PRUNE_FOR_SCRATCH()
+model = model.to(device)
 # load best model to test
-model = ()
 model.load_state_dict(torch.load('./checkpoint/best_model.pth')['model_state_dict'])
 top1_acc, top5_acc = testAccuracy(model, val_loader)
 print("Test Accuracy ", "-"*70)
