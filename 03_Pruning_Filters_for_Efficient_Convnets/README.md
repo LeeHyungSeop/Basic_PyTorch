@@ -29,7 +29,7 @@
   ![Alt text](./images/image.png)
 
 ---
-* `result.ipynb`
+* `Table_1.ipynb`
     * **VGG-16** : vgg16_baseline_exp1/ 에서 개발.
       * Top-1 accuracy : 91.86%
       * #FLOPs : 314.696M
