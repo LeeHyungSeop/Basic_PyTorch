@@ -621,3 +621,4 @@ Adjusting learning rate of group 0 to 1.0000e-02.
 Current Time : 2024-02-06 18:16:12.808033
 43 / 120 epoch ----------------------------------------
 [43, 1000th iteration] loss : 1.4864878165721893
+[43, 2000th iteration] loss : 1.5059634158611297
