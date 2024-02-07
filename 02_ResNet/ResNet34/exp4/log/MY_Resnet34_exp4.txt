@@ -1287,3 +1287,7 @@ val acc : 69.266
 Adjusting learning rate of group 0 to 1.0000e-04.
 Current Time : 2024-02-07 23:20:52.406063
 108 / 120 epoch ----------------------------------------
+[108, 1000th iteration] loss : 0.9844469961524009
+[108, 2000th iteration] loss : 0.9847935374379158
+[108, 3000th iteration] loss : 0.9884338283538818
+[108, 4000th iteration] loss : 0.9886171221137047

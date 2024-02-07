@@ -178,12 +178,13 @@ for test_Q in multi_scale_list :
     val_loader = torch.utils.data.DataLoader(
         valset, batch_size=mini_batch_size, shuffle=True, num_workers=8, pin_memory=True
     )
-    num_val_batch = len(val_loader)
 
-    # Top-1 
-    val_loss = 0.0
-    correct = 0
-    total = 0
+    local_top1_correct = 0
+    local_top1_total = 0
+    local_top1_acc = 0.0
+    local_top5_correct = 0
+    local_top5_total = 0
+    local_top5_acc = 0.0
     model.eval().to(device)
     with torch.no_grad():
         for batch in val_loader:
@@ -193,40 +194,20 @@ for test_Q in multi_scale_list :
             result = model(input.view(-1, c, h, w))
             result_avg = result.view(bs, ncrops, -1).mean(1)
             loss = criterion(result_avg, target)
+            _, predicted = torch.max(result_avg, 1)
             
-            val_loss += loss.item()
-            _, predicted = result_avg.max(1)
-            total += target.size(0)
-            correct += predicted.eq(target).sum().item()
-    print("[Top-1]")
-    print(f"val loss : {val_loss / num_val_batch}")
-    print(f"val acc : {100. * correct / total}")
-    print(f"error rate : {100. * (total - correct) / total}")
-    top1_acc += 100. * correct / total
-
-    # Top-5
-    val_loss = 0.0
-    correct = 0
-    total = 0
-    model.eval().to(device)
-    with torch.no_grad():
-        for batch in val_loader:
-            input, target = batch
-            input, target = input.to(device), target.to(device)
-            bs, ncrops, c, h, w = input.size()
-            result = model(input.view(-1, c, h, w))
-            result_avg = result.view(bs, ncrops, -1).mean(1)
-            loss = criterion(result_avg, target)
+            local_top1_total += target.size(0)
+            local_top1_correct += (predicted == target).sum().item()
             
-            val_loss += loss.item()
-            _, predicted = result_avg.topk(5, 1, True, True)
-            total += target.size(0)
-            correct += predicted.eq(target.view(-1, 1).expand_as(predicted)).sum().item()   
-    print("[Top-5]")          
-    print(f"val loss : {val_loss / num_val_batch}")
-    print(f"val acc : {100. * correct / total}")
-    print(f"error rate : {100. * (total - correct) / total}")
-    top5_acc += 100. * correct / total
+            local_top5_total += target.size(0)
+            local_top5_correct += (torch.topk(result_avg, 5, dim=1)[1] == target.view(-1, 1)).sum().sum().item()
+            
+    local_top1_acc = 100 * local_top1_correct / local_top1_total
+    local_top5_acc = 100 * local_top5_correct / local_top5_total
+    print(f"local top-1 acc : {local_top1_acc}%")
+    print(f"local top-5 acc : {local_top5_acc}%")
+    top1_acc += local_top1_acc
+    top5_acc += local_top5_acc
     
 top1_acc /= len(multi_scale_list)
 top5_acc /= len(multi_scale_list)
