@@ -158,7 +158,7 @@ def shorter_side_resize_val(img, test_Q) :
     return transforms.Resize((new_height, new_width))(img)
 
 model = MyResNet34().to(device)
-model.load_state_dict(torch.load("./My_ResNet34_exp4_Checkpoint/best_model.pth"))
+model.load_state_dict(torch.load("./My_ResNet34_5_Checkpoint/best_model.pth"))
 mini_batch_size = 64
 
 # average the scores at multi scales (224, 256, 384, 480, 640) + Ten Crop

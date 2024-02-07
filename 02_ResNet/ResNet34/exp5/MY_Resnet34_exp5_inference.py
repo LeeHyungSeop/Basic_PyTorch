@@ -43,7 +43,8 @@ class BuildingBlock(nn.Module) :
         out += identity # identity mapping
         out = self.relu2(out)
         
-        return out    
+        return out
+    
 class BuildingBlockWithDownSample(nn.Module) :
     def __init__(self, in_channels, out_channels) :
         super().__init__()
@@ -158,7 +159,7 @@ def shorter_side_resize_val(img, test_Q) :
     return transforms.Resize((new_height, new_width))(img)
 
 model = MyResNet34().to(device)
-model.load_state_dict(torch.load("./My_ResNet34_exp4_Checkpoint/best_model.pth"))
+model.load_state_dict(torch.load("./My_ResNet34_exp5_Checkpoint/best_model.pth"))
 mini_batch_size = 64
 
 # average the scores at multi scales (224, 256, 384, 480, 640) + Ten Crop
@@ -167,7 +168,7 @@ top1_acc, top5_acc = 0, 0
 for test_Q in multi_scale_list :
     print(f"test_Q : {test_Q}", "="*50)
     val_transform = transforms.Compose([
-        lambda x: shorter_side_resize_val(x, test_Q=test_Q),
+        shorter_side_resize_val(test_Q=test_Q),
         transforms.TenCrop(224),
         transforms.Lambda(lambda crops: torch.stack([transforms.ToTensor()(crop) for crop in crops])),
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),

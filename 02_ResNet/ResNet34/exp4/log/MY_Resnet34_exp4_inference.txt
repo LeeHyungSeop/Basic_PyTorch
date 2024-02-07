@@ -1,13 +1,63 @@
-2024-02-06 13:02:29.368402: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+2024-02-07 12:57:10.191294: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-02-06 13:02:29.503310: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-02-07 12:57:10.374463: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 cuda:0
 num_val_batch : 782
 [Top-1]
-val loss : 1.534773806476837
-val acc : 65.442
-error rate : 34.558
+val loss : 1.1743728471229145
+val acc : 72.786
+error rate : 27.214
 [Top-5]
-val loss : 1.5341548376985827
-val acc : 86.95
-error rate : 13.05
+val loss : 1.174481006610729
+val acc : 91.118
+error rate : 8.882
+2024-02-07 13:48:59.340896: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-07 13:48:59.532513: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+cuda:0
+num_val_batch : 782
+[Top-1]
+val loss : 1.0801696455692087
+val acc : 72.986
+error rate : 27.014
+[Top-5]
+val loss : 1.079462098457929
+val acc : 91.202
+error rate : 8.798
+2024-02-07 23:12:49.785742: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-07 23:12:49.937303: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+cuda:0
+Traceback (most recent call last):
+  File "/home/hslee/Desktop/Embedded_AI/PyTorch_Tutorials/02_ResNet/ResNet34/exp4/MY_Resnet34_exp4_inference.py", line 162, in <module>
+    model.load_state_dict(torch.load("./My_ResNet34_exp5_Checkpoint/best_model.pth"))
+  File "/home/hslee/anaconda3/envs/DL/lib/python3.10/site-packages/torch/serialization.py", line 986, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/hslee/anaconda3/envs/DL/lib/python3.10/site-packages/torch/serialization.py", line 435, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/hslee/anaconda3/envs/DL/lib/python3.10/site-packages/torch/serialization.py", line 416, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './My_ResNet34_exp5_Checkpoint/best_model.pth'
+2024-02-07 23:14:30.702382: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-07 23:14:30.840341: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+cuda:0
+test_Q : 224 ==================================================
+Traceback (most recent call last):
+  File "/home/hslee/Desktop/Embedded_AI/PyTorch_Tutorials/02_ResNet/ResNet34/exp4/MY_Resnet34_exp4_inference.py", line 170, in <module>
+    shorter_side_resize_val(test_Q=test_Q),
+TypeError: shorter_side_resize_val() missing 1 required positional argument: 'img'
+2024-02-07 23:21:32.347735: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-07 23:21:32.422273: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+cuda:0
+test_Q : 224 ==================================================
+Traceback (most recent call last):
+  File "/home/hslee/Desktop/Embedded_AI/PyTorch_Tutorials/02_ResNet/ResNet34/exp4/MY_Resnet34_exp4_inference.py", line 170, in <module>
+    shorter_side_resize_val(test_Q=test_Q),
+TypeError: shorter_side_resize_val() missing 1 required positional argument: 'img'
+2024-02-07 23:22:17.562108: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-02-07 23:22:17.632580: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+cuda:0
+test_Q : 224 ==================================================
