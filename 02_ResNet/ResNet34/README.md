@@ -81,5 +81,13 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
 ---
 4. `exp4/`
    * best model 저장 기준을 min val_loss가 아닌, max val_acc로 수정.
-   * shorter_side_resize() function 수정.
-   
+   * shorter_side_resize() function 수정 : shorter side만 random하게 resize.
+   * 10-Crop Top1 Acc : 73.934% (Paper : 75.47%)
+   * 10-Crop Top5 Acc : 91.802% (Paper : 92.54%)
+
+---
+5. `exp5/` 
+   * shorter_side_resize() function 수정 : shorter side를 random하게 resiz, longer side는 그에 맞는 비율로 resize.
+   * multi crop test 개발.
+   * 10-Crop Top1 Acc : (training now)% (Paper : 75.47%)
+   * 10-Crop Top5 Acc : (training now)% (Paper : 92.54%)
