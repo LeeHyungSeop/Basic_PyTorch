@@ -1291,3 +1291,149 @@ Current Time : 2024-02-07 23:20:52.406063
 [108, 2000th iteration] loss : 0.9847935374379158
 [108, 3000th iteration] loss : 0.9884338283538818
 [108, 4000th iteration] loss : 0.9886171221137047
+[108, 5000th iteration] loss : 0.9885524267554283
+val loss : 1.274795922697807
+val acc : 69.22
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 00:01:05.655831
+109 / 120 epoch ----------------------------------------
+[109, 1000th iteration] loss : 0.9858892059922219
+[109, 2000th iteration] loss : 0.9789676539301873
+[109, 3000th iteration] loss : 0.9924013438224792
+[109, 4000th iteration] loss : 0.9906325290203094
+[109, 5000th iteration] loss : 0.9892802191376686
+val loss : 1.2751657783376926
+val acc : 69.212
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 00:33:47.867779
+110 / 120 epoch ----------------------------------------
+[110, 1000th iteration] loss : 0.9880645259618759
+[110, 2000th iteration] loss : 0.9863603872656822
+[110, 3000th iteration] loss : 0.9846436060667038
+[110, 4000th iteration] loss : 0.985041668832302
+[110, 5000th iteration] loss : 0.9840402220487594
+val loss : 1.2740505140046685
+val acc : 69.236
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 01:00:21.016452
+111 / 120 epoch ----------------------------------------
+[111, 1000th iteration] loss : 0.9830972378253937
+[111, 2000th iteration] loss : 0.9839592115879059
+[111, 3000th iteration] loss : 0.9864121512770653
+[111, 4000th iteration] loss : 0.9840401604771614
+[111, 5000th iteration] loss : 0.9846316965818405
+val loss : 1.2770011184775099
+val acc : 69.246
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 01:26:53.172401
+112 / 120 epoch ----------------------------------------
+[112, 1000th iteration] loss : 0.9839020702242851
+[112, 2000th iteration] loss : 0.983987300992012
+[112, 3000th iteration] loss : 0.9847698761820793
+[112, 4000th iteration] loss : 0.9839847368001938
+[112, 5000th iteration] loss : 0.982540824174881
+val loss : 1.277256111709439
+val acc : 69.266
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 01:53:28.181788
+113 / 120 epoch ----------------------------------------
+[113, 1000th iteration] loss : 0.9828467400670051
+[113, 2000th iteration] loss : 0.9824551352262497
+[113, 3000th iteration] loss : 0.9863685805797577
+[113, 4000th iteration] loss : 0.9798132227063179
+[113, 5000th iteration] loss : 0.9815741019845009
+val loss : 1.27383938158045
+val acc : 69.222
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 02:20:06.676497
+114 / 120 epoch ----------------------------------------
+[114, 1000th iteration] loss : 0.9811902040243149
+[114, 2000th iteration] loss : 0.9803953775167465
+[114, 3000th iteration] loss : 0.9851650990843773
+[114, 4000th iteration] loss : 0.9799103128314018
+[114, 5000th iteration] loss : 0.9855437816977501
+val loss : 1.2738790220143843
+val acc : 69.294
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 02:46:45.496477
+115 / 120 epoch ----------------------------------------
+[115, 1000th iteration] loss : 0.979084909260273
+[115, 2000th iteration] loss : 0.9823487944602967
+[115, 3000th iteration] loss : 0.9808291885852813
+[115, 4000th iteration] loss : 0.9820196639895439
+[115, 5000th iteration] loss : 0.9831761177778244
+val loss : 1.2765773352311582
+val acc : 69.292
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 03:13:24.694033
+116 / 120 epoch ----------------------------------------
+[116, 1000th iteration] loss : 0.9836237927079201
+[116, 2000th iteration] loss : 0.9785458562374115
+[116, 3000th iteration] loss : 0.9878397013545036
+[116, 4000th iteration] loss : 0.9857815630435943
+[116, 5000th iteration] loss : 0.9849054115414619
+val loss : 1.2759684132678168
+val acc : 69.322
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 03:40:03.697308
+117 / 120 epoch ----------------------------------------
+[117, 1000th iteration] loss : 0.9810392276644707
+[117, 2000th iteration] loss : 0.9781805614233017
+[117, 3000th iteration] loss : 0.9873385054469108
+[117, 4000th iteration] loss : 0.9773699221611023
+[117, 5000th iteration] loss : 0.9841009991765022
+val loss : 1.2785183325105784
+val acc : 69.292
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 04:06:42.715189
+118 / 120 epoch ----------------------------------------
+[118, 1000th iteration] loss : 0.9764835559129715
+[118, 2000th iteration] loss : 0.9839875700473786
+[118, 3000th iteration] loss : 0.9820402383208274
+[118, 4000th iteration] loss : 0.983202902674675
+[118, 5000th iteration] loss : 0.9755578762888908
+val loss : 1.2754007848549862
+val acc : 69.28
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 04:33:23.050547
+119 / 120 epoch ----------------------------------------
+[119, 1000th iteration] loss : 0.9805433453321457
+[119, 2000th iteration] loss : 0.9768030005097389
+[119, 3000th iteration] loss : 0.9794503632187843
+[119, 4000th iteration] loss : 0.9787630257606507
+[119, 5000th iteration] loss : 0.9835037785768509
+val loss : 1.276770079318358
+val acc : 69.22
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 05:00:02.170072
+120 / 120 epoch ----------------------------------------
+[120, 1000th iteration] loss : 0.9771254811286926
+[120, 2000th iteration] loss : 0.973960085451603
+[120, 3000th iteration] loss : 0.9790768161416054
+[120, 4000th iteration] loss : 0.9793957773447036
+[120, 5000th iteration] loss : 0.9834338338971138
+val loss : 1.2778174813304628
+val acc : 69.25
+Adjusting learning rate of group 0 to 1.0000e-04.
+Current Time : 2024-02-08 05:26:42.115969
+~~~ Training Finished ~~~
+[In Paper] top-1 acc : 77.15 %, top-5 acc : 93.29 %
+num_val_batch : 196
+[inference exp1] : transforms.Resize(256)
+[Top-1]
+val loss : 2.110619157552719
+val acc : 73.392%
+error rate : 26.608%
+[Top-5]
+val loss : 2.1109782253601113
+val acc : 91.414%
+error rate : 8.586%
+[inference exp2] : transforms.Resize((256 + 480) // 2)
+[Top-1]
+val loss : 2.1992584588576336
+val acc : 73.934%
+error rate : 26.066%
+[Top-5]
+val loss : 2.199402633978396
+val acc : 91.802%
+error rate : 8.198%
