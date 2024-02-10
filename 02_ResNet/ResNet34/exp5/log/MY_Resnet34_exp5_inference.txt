@@ -1,26 +1,21 @@
-2024-02-07 12:57:10.191294: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+2024-02-10 22:57:39.513611: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-02-07 12:57:10.374463: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-02-10 22:57:39.568325: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 cuda:0
-num_val_batch : 782
-[Top-1]
-val loss : 1.1743728471229145
-val acc : 72.786
-error rate : 27.214
-[Top-5]
-val loss : 1.174481006610729
-val acc : 91.118
-error rate : 8.882
-2024-02-07 13:48:59.340896: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
-To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2024-02-07 13:48:59.532513: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-cuda:0
-num_val_batch : 782
-[Top-1]
-val loss : 1.0801696455692087
-val acc : 72.986
-error rate : 27.014
-[Top-5]
-val loss : 1.079462098457929
-val acc : 91.202
-error rate : 8.798
+test_Q : 224 ==================================================
+local top-1 acc : 73.106%
+local top-5 acc : 91.04%
+test_Q : 256 ==================================================
+local top-1 acc : 74.794%
+local top-5 acc : 92.07%
+test_Q : 384 ==================================================
+local top-1 acc : 74.228%
+local top-5 acc : 91.912%
+test_Q : 480 ==================================================
+local top-1 acc : 69.574%
+local top-5 acc : 89.254%
+test_Q : 640 ==================================================
+local top-1 acc : 55.302%
+local top-5 acc : 79.452%
+average top-1 acc : 69.4008%
+average top-5 acc : 88.74560000000001%

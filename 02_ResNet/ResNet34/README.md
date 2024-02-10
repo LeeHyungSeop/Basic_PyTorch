@@ -89,5 +89,6 @@ pytorch에서 제공하는 model.resnet34()가 제대로 training되는지 확�
 5. `exp5/` 
    * shorter_side_resize() function 수정 : shorter side를 random하게 resiz, longer side는 그에 맞는 비율로 resize.
    * multi crop test 개발.
-   * 10-Crop Top1 Acc : (training now)% (Paper : 75.47%)
-   * 10-Crop Top5 Acc : (training now)% (Paper : 92.54%)
+     * 10-Crop Top1 Acc : 69.4% (Paper : 75.47%)
+     * 10-Crop Top5 Acc : 79.452% (Paper : 92.54%)
+     ![no msg](./images/image-3.png)
