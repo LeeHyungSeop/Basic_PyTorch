@@ -36,7 +36,7 @@
       * #Params : 14.9919M
        
     * **VGG-16-pruned-A** : vgg16_prune_A/ 에서 개발.
-      * Top-1 accuracy : 91.53% (-0.33)
+      * Top-1 accuracy : 91.47% (-0.39)
       * #FLOPs : 207.314M (Pruned : 34.12%)
       ![Alt text](./images/Pruned_FLOPs.png)
       * #Params : 5.3996M (Pruned : 64.0%)
